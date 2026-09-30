@@ -1,0 +1,33 @@
+﻿<Window x:Class="OExpert.FactInfoDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OExpert"
+        mc:Ignorable="d"
+        Title="Fact Information" Height="450" Width="800" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid>
+            <local:UCFactInfo x:Name="ucFactInfo"/>
+        </Grid>
+        <Button Name="btnFirst" Margin="0,2,202,0" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="First Rule" Click="Button_Click">
+            <Image Source="/Images/First-48.png" Width="24" Height="24"/>
+        </Button>
+        <Button Name="btnPrevious" Margin="0,2,172,0" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="Previous Rule" Click="Button_Click">
+            <Image Source="/Images/Previous-48.png" Width="24" Height="24"/>
+        </Button>
+        <Button Name="btnNext" Margin="0,2,142,0" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="Next Rule" Click="Button_Click">
+            <Image Source="/Images/Next-48.png" Width="24" Height="24"/>
+        </Button>
+        <Button Name="btnLast" Margin="0,2,112,0" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="Last Rule" Click="Button_Click">
+            <Image Source="/Images/Last-48.png" Width="24" Height="24"/>
+        </Button>
+        <Button x:Name="btnSave" HorizontalAlignment="Right" Margin="0,4,38,4" VerticalAlignment="Top" Click="Button_Click">
+            <Image Source="/Images/Save.png" Width="24" Height="24"/>
+        </Button>
+        <Button x:Name="btnCancel" HorizontalAlignment="Right" Margin="0,4,4,4" VerticalAlignment="Top" Click="Button_Click">
+            <Image Source="/Images/Exit.png" Width="24" Height="24"/>
+        </Button>
+        <Label x:Name="labelCount" Margin="0,34,190,4" HorizontalAlignment="Right" VerticalAlignment="Top">0 of 0</Label>
+    </Grid>
+</Window>

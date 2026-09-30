@@ -1,0 +1,39 @@
+<UserControl x:Class="OExpert.UCDrawArea"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:localUI="clr-namespace:OExpert.UILibraryWPF;assembly=UILibraryWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
+    <Grid>
+        <Popup x:Name="CustomTooltip" 
+           Placement="Relative" 
+           PlacementTarget="{Binding ElementName=DACanvas}"
+           IsOpen="True"
+           StaysOpen="True">
+            <Border BorderBrush="Black" BorderThickness="2" Background="LightYellow" Padding="10">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock x:Name="tbTipHead" FontWeight="Black">Title</TextBlock>
+                    <TextBlock x:Name="tbTip">update dynamically!</TextBlock>
+                    <TextBlock x:Name="tbTipRulesHead1" FontWeight="Black">Rules 1</TextBlock>
+                    <TextBlock x:Name="tbTipRules1">rules 1 part!</TextBlock>
+                    <TextBlock x:Name="tbTipRulesHead2" FontWeight="Black">Rules 2</TextBlock>
+                    <TextBlock x:Name="tbTipRules2">rules 2 part!</TextBlock>
+                </StackPanel>
+            </Border>
+        </Popup>
+        <ScrollViewer x:Name="DAScrollViewer" Margin="0,0,0,0" BorderThickness="1" BorderBrush="Black" 
+                      VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" SizeChanged="DAScrollViewer_SizeChanged">
+            <localUI:WDrawingCanvas x:Name="DACanvas" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Yellow" ClipToBounds="true"
+                                  MouseLeftButtonDown="DACanvas_MouseLeftButtonDown" 
+                                  MouseMove="DACanvas_MouseMove" 
+                                  MouseLeftButtonUp="DACanvas_MouseLeftButtonUp" 
+                                  MouseRightButtonDown="DACanvas_MouseRightButtonDown" 
+                                  MouseRightButtonUp="DACanvas_MouseRightButtonUp" 
+                                  KeyUp="DACanvas_KeyUp" MouseLeave="DACanvas_MouseLeave" 
+                               >
+            </localUI:WDrawingCanvas>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

@@ -1,0 +1,4547 @@
+{
+  "Name": "../../data/han_cold-TC.json",
+  "aRuleList": [
+    {
+      "ID": 1,
+      "Name": "mdD_R01",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R1.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_25",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R01",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3674.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 2,
+      "Name": "mdD_R02",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R2.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_25",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R02",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 3,
+      "Name": "mdD_R03",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R3.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_26",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R03",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3794.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 4,
+      "Name": "mdD_R04",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R4.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_26",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R04",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3854.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 5,
+      "Name": "mdD_R05",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R5.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_27",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R05",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3914.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 6,
+      "Name": "mdD_R06",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R6.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_27",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R06",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3974.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 7,
+      "Name": "mdD_R07",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R7.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_23",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R07",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 8,
+      "Name": "mdD_R08",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R8.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_23",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R08",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3554.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 9,
+      "Name": "mdD_R09",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R9.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_23",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R09",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3614.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 10,
+      "Name": "mdD_R10",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R10.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_22",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R10",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3314.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 11,
+      "Name": "mdD_R11",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R11.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_22",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R11",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 12,
+      "Name": "mdD_R12",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R12.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_22",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R12",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3434.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 13,
+      "Name": "mdD_R13",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R13.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_20",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R13",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3254.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 14,
+      "Name": "mdD_R14",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R14.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_20",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R14",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3314.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 15,
+      "Name": "mdD_R15",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R15.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_28",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R15",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3014.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 16,
+      "Name": "mdD_R16",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R16.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_21",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R16",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 1010.0,
+      "Y": 3074.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 17,
+      "Name": "mdD_R17",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R17.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_21",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R17",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 1010.0,
+      "Y": 3134.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 18,
+      "Name": "mdD_R18",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R18.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_21",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R18",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 1010.0,
+      "Y": 3194.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 19,
+      "Name": "mdD_R19",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R19.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_21",
+          "WantValue": "4",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R19",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 1010.0,
+      "Y": 3254.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 20,
+      "Name": "mdD_R20",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R20.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_18",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R20",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 21,
+      "Name": "mdD_R21",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R21.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_18",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R21",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2774.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 22,
+      "Name": "mdD_R22",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R22.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_19",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R22",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2834.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 23,
+      "Name": "mdD_R23",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R23.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_19",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R23",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2894.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 24,
+      "Name": "mdD_R24",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R24.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_19",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R24",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2954.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 25,
+      "Name": "mdD_R25",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R25.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_15",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R25",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2594.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 26,
+      "Name": "mdD_R26",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R26.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_15",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R26",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2654.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 27,
+      "Name": "mdD_R27",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R27.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_15",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R27",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 28,
+      "Name": "mdD_R28",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R28.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_16",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R28",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 2474.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 29,
+      "Name": "mdD_R29",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R29.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_16",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R29",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 2534.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 30,
+      "Name": "mdD_R30",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R30.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_16",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R30",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 2594.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 31,
+      "Name": "mdD_R31",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R31.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_23",
+          "WantValue": "No",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R31",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2414.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 34,
+      "Name": "mdD_R34",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R34.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_13",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_14",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R34",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1994.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 35,
+      "Name": "mdD_R35",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R35.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_13",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_14",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R35",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2054.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 36,
+      "Name": "mdD_R36",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R36.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_18",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R36",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1754.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 37,
+      "Name": "mdD_R37",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R37.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_18",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R37",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1814.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 38,
+      "Name": "mdD_R38",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R38.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_17",
+          "WantValue": "No",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R38",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 39,
+      "Name": "mdD_R39",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R39.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_10",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R39",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1814.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 40,
+      "Name": "mdD_R40",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R40.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_10",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R40",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1874.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 41,
+      "Name": "mdD_R41",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R41.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_10",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R41",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1934.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 42,
+      "Name": "mdD_R42",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R42.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_07",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R42",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1334.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 43,
+      "Name": "mdD_R43",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R43.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_07",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R43",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1394.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 45,
+      "Name": "mdD_R45",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R45.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_05",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R45",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1214.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 49,
+      "Name": "mdD_R49",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R49.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_08",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R49",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1634.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 50,
+      "Name": "mdD_R50",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R50.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_04",
+          "WantValue": "2",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_08",
+          "WantValue": "2",
+          "Or": "Or",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R50",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1094.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 51,
+      "Name": "mdD_R51",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R51.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_08",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R51",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 52,
+      "Name": "mdD_R52",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R52.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_14",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R52",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1454.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 55,
+      "Name": "mdD_R55",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R55.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_05",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_06",
+          "WantValue": "1",
+          "Or": "Or",
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_09",
+          "WantValue": "1",
+          "Or": "Or",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R55",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1274.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 56,
+      "Name": "mdD_R56",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R56.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_06",
+          "WantValue": "2",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_09",
+          "WantValue": "2",
+          "Or": "Or",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R56",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1334.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 57,
+      "Name": "mdD_R57",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R57.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_07",
+          "WantValue": "No",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R57",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 974.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 58,
+      "Name": "mdD_R58",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R58.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_08",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R58",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1034.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 59,
+      "Name": "mdD_R59",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R59.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_04",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R59",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1154.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 61,
+      "Name": "mdD_R61",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R61.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_02",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R61",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 854.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 62,
+      "Name": "mdD_R62",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R62.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_02",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R62",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 914.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 63,
+      "Name": "mdD_R63",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R63.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_00",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R63",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 614.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 64,
+      "Name": "mdD_R64",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R64.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_03",
+          "WantValue": "No",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_00",
+          "WantValue": "2",
+          "Or": "Or",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R64",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 65,
+      "Name": "mdD_R65",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R65.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_00",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R65",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 674.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 66,
+      "Name": "mdD_R66",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R66.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_00",
+          "WantValue": "4",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R66",
+      "Probability": 0.8,
+      "Value": 1,
+      "X": 410.0,
+      "Y": 734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 68,
+      "Name": "mdD_R69",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R69.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_04",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R69",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 554.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 69,
+      "Name": "mdD_R70",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R70.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_01",
+          "WantValue": "1",
+          "Or": "",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R70",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 70,
+      "Name": "mdD_R71",
+      "Message": "../../Data/SAMPLE/COLD_TC/COLD_R71.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_01",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R71",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 794.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 71,
+      "Name": "mdQC_00",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "(鼻塞、流涕、打噴嚏)有惡寒嗎?",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_00",
+      "Probability": 0.8,
+      "Value": 1,
+      "X": 10.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 72,
+      "Name": "mdQC_01",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有畏風嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_00",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_01",
+      "Probability": 0.8,
+      "Value": 1,
+      "X": 110.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 73,
+      "Name": "mdQC_02",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有發熱、出汗、頭痛、或咳嗽或乾嘔嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_01",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_02",
+      "Probability": 0.8,
+      "Value": 1,
+      "X": 210.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 74,
+      "Name": "mdQC_03",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有發熱、脈浮緩的症狀嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_02",
+          "WantValue": "No",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_03",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 75,
+      "Name": "mdQC_04",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有平時身体不好, 体倦自汗、易感冒嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_03",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_04",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 554.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 76,
+      "Name": "mdQC_05",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "惡寒症狀嚴重嗎？",
+          "WantValue": "是",
+          "Or": null,
+          "Options": [
+            "是",
+            "不是"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_00",
+          "WantValue": "No",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_05",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 110.0,
+      "Y": 794.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 77,
+      "Name": "mdQC_06",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有發熱嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_05",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_06",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 210.0,
+      "Y": 794.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 78,
+      "Name": "mdQC_07",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有頭暈、心煩、手足心熱、乾咳少痰、舌紅少苔嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_03",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_07",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 974.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 79,
+      "Name": "mdQC_08",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無汗、面舌唇甲淡白、頭暈心悸、脈細或浮而無力嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_07",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_08",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1034.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 80,
+      "Name": "mdQC_09",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有咽喉紅腫疼痛嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_03",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_09",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 1154.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 81,
+      "Name": "mdQC_10",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有口乾渴、頭脹痛的症狀出現嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_09",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_10",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1154.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 82,
+      "Name": "mdQC_11",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "任何胸闷?",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_10",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_11",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1154.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 83,
+      "Name": "mdQC_12",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有夏天發熱、汗出熱不解、身重倦怠、口渴、小便短赤、苔黃膩嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_09",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_12",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1394.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 84,
+      "Name": "mdQC_13",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有秋季發熱、頭痛乾咳、咽干口燥、舌紅少津、脈數等症狀嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_12",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_13",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1394.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 85,
+      "Name": "mdQC_14",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有惡食、噯腐、胸悶嗎",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_13",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_14",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1454.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 86,
+      "Name": "mdQC_15",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有發熱嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_05",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_15",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 210.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 87,
+      "Name": "mdQC_16",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無汗、項強、頭身痛、口不渴、舌苔白、脈浮緊的症狀嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_15",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_16",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 88,
+      "Name": "mdQC_17",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有咽癢、咳嗽嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_16",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_17",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 89,
+      "Name": "mdQC_18",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有食少腹痛、嘔吐、四肢冷嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_17",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_18",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1754.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 90,
+      "Name": "mdQC_19",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有頭痛身痛、語聲低微、四肢不溫等症狀嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_12",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_19",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1994.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 91,
+      "Name": "mdQC_20",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無頭痛、身痛或四肢酸痛？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_12",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_20",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 2174.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 92,
+      "Name": "mdQC_21",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有語聲低微、四肢不溫等症狀嗎？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_20",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_19",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_21",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1994.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 93,
+      "Name": "mdQC_22",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無咽癢咳嗽、咳痰？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_20",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_22",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2414.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 94,
+      "Name": "mdQC_23",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無語聲低微、四肢不溫、舌淡苔白、脈沉無力？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_22",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_23",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2414.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 95,
+      "Name": "mdQC_24",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "是否有倦怠無力、氣短懶言、頭痛身痛、舌淡苔白、脈浮無力等症狀出現？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_17",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_24",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 96,
+      "Name": "mdQC_25",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無頭痛、身痛或四肢酸痛或項強等症狀？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_17",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_25",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 2954.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 97,
+      "Name": "mdQC_26",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無食欲不振、惡心嘔吐、便溏腹瀉等症狀？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_25",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_26",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2954.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 98,
+      "Name": "mdQC_27",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無胸悶、体倦、頭重等症狀？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_26",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_27",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 3014.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 99,
+      "Name": "mdQC_28",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無脅肋疼痛？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_27",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_28",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3014.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 100,
+      "Name": "mdQC_29",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "有無咽癢、咳嗽、咳痰？",
+          "WantValue": "有",
+          "Or": null,
+          "Options": [
+            "有",
+            "没有"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_25",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_29",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 3434.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 101,
+      "Name": "mdQCM_00",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "那些症狀比較明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "發熱、汗出、頭痛",
+            "咽癢、咳嗽",
+            "乾嘔",
+            "發熱"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_02",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQCM_00",
+      "Probability": 0.8,
+      "Value": 4,
+      "X": 310.0,
+      "Y": 554.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 102,
+      "Name": "mdQCM_01",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "鼻涕顏色性狀以及舌、脈如何？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "鼻涕清稀、舌淡苔白",
+            "鼻涕黃濁、舌紅苔薄黃"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_01",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_01",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 210.0,
+      "Y": 734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 103,
+      "Name": "mdQCM_02",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "出汗與否鼻涕顏色及頭部感覺如何？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "鼻涕清稀無汗頭痛",
+            "鼻涕黃白相兼有汗、頭脹痛"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_06",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_02",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 854.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 104,
+      "Name": "mdQCM_03",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "發熱症狀嚴重嗎？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "較輕",
+            "嚴重或較重"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_06",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_03",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 914.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 105,
+      "Name": "mdQCM_04",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "發熱惡寒何輕何重？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "寒重",
+            "熱重"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_08",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_04",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1094.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 106,
+      "Name": "mdQCM_05",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "痰量多少？是否易于咳出？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "痰多易咳",
+            "痰少粘稠難咳"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_11",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_05",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1214.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 107,
+      "Name": "mdQCM_06",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "有鼻乾、口渴心煩、舌紅苔黃嗎？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "鼻乾口渴、舌紅苔黃明顯",
+            "心煩口渴、苔黃明顯"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_11",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_06",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1274.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 108,
+      "Name": "mdQCM_07",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "口乾渴、頭脹痛那個症狀明顯, 舌、脈如何？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "舌紅苔薄黃、脈浮數、口乾渴",
+            "舌紅苔薄黃、脈浮數、頭脹痛"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_10",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_07",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1334.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 109,
+      "Name": "mdQCM_08",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "那組症狀最明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "頭痛",
+            "乾咳",
+            "煩熱口渴"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_13",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_08",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1634.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 110,
+      "Name": "mdQCM_09",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "有咳嗽、鼻涕黃濁、咳痰嗎？  那個症狀較明顯",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "鼻乾口渴、舌紅苔黃明顯",
+            "心煩口渴、舌紅苔黃明顯"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_14",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_09",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1514.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 111,
+      "Name": "mdQCM_10",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "那一組症狀最明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "無汗、口不渴",
+            "頭痛項強",
+            "全身痠痛"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_16",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_10",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 1814.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 112,
+      "Name": "mdQCM_11",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "發熱的程度如何？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "不嚴重 (約38度以下)",
+            "嚴重 (約38度以上)"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_15",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_11",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 1934.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 113,
+      "Name": "mdQCM_12",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "有無出汗？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "有汗",
+            "無汗"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_11",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_12",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 1934.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 114,
+      "Name": "mdQCM_13",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "那組症狀比較明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "頭身痛",
+            "四肢不溫、語聲低微"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_19",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_13",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2054.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 115,
+      "Name": "mdQCM_14",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "那組症狀比較明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "頭身痛",
+            "鑒肢不溫、語聲低微"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_21",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_14",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1994.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 116,
+      "Name": "mdQCM_15",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "咽癢咳嗽程度及痰涕顏色性狀？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "微咳、痰涕清稀、痰色白",
+            "咳喘、痰多稀白",
+            "咳嗽、痰少微黃"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_22",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_15",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2594.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 117,
+      "Name": "mdQCM_16",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "頭身痛、四肢酸痛那些症狀較明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "頭痛",
+            "身痛",
+            "四肢痠痛"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_23",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_16",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2474.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 118,
+      "Name": "mdQCM_17",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "有無出汗？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "有汗",
+            "無汗"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_11",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_17",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 119,
+      "Name": "mdQCM_18",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "那些症狀較明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "倦怠無力、氣短懶言、脈浮無力較明顯",
+            "頭痛、身痛較明顯"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_24",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_18",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 120,
+      "Name": "mdQCM_19",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "是否有咳嗽聲重、痰稀白、食欲不掁、胸脘痞悶、苔膩等症狀出現那些症狀較明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "無",
+            "咳嗽聲重、痰稀白較明顯",
+            "食欲不掁、胸脘痞悶較明顯"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_24",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_19",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2774.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 121,
+      "Name": "mdQCM_20",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "舌苔如何？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "舌苔薄白膩",
+            "舌苔白厚膩"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_27",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_20",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3254.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 122,
+      "Name": "mdQCM_21",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "有無咽痛、咳嗽氣急、痰黃粘稠、心煩或小便紅、大便秘結等症那些最明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_28",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_21",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3074.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 123,
+      "Name": "mdQCM_22",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "其中那些症狀較明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "食欲不振",
+            "惡心嘔吐",
+            "腹脹便溏"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_26",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_22",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 3314.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 124,
+      "Name": "mdQCM_23",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "頭身痛、項強、那個症狀較明顯？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "頭痛明顯",
+            "身痛明顯",
+            "項強明顯"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_29",
+          "WantValue": "Yes",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_23",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 3434.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 125,
+      "Name": "mdQCM_24",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "咽癢咳嗽程度及痰涕多少、顏色、性狀？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "微咳、鼻涕清稀、痰稀白",
+            "咳喘痰多稀白",
+            "痰少微黃"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_29",
+          "WantValue": "No",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_24",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 3614.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 126,
+      "Name": "mdQCM_25",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "舌、脈如何？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "舌淡紅、苔薄白、脈浮緊",
+            "舌淡紅、苔薄白乾、或薄白微黃、脈浮"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_24",
+          "WantValue": "1",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_25",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3674.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 127,
+      "Name": "mdQCM_26",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "舌、脈如何？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "舌淡紅、苔薄白、脈浮緊",
+            "舌淡紅、苔白膩、脈浮"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_24",
+          "WantValue": "2",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_26",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 128,
+      "Name": "mdQCM_27",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "口渴與否？",
+          "WantValue": "",
+          "Or": null,
+          "Options": [
+            "口渴",
+            "口不渴"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_24",
+          "WantValue": "3",
+          "Or": null,
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_27",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3854.6,
+      "Width": 80.0,
+      "Height": 40.0
+    }
+  ],
+  "aFactList": [
+    {
+      "fact": "(鼻塞、流涕、打噴嚏)有惡寒嗎?",
+      "X": 10.0,
+      "Y": 50.0,
+      "Width": 162.60666666666668,
+      "Height": 40.0,
+      "Value": "有"
+    },
+    {
+      "fact": "有畏風嗎？",
+      "X": 182.60666666666668,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": "有"
+    },
+    {
+      "fact": "有發熱、出汗、頭痛、或咳嗽或乾嘔嗎？",
+      "X": 272.60666666666668,
+      "Y": 50.0,
+      "Width": 203.91000000000003,
+      "Height": 40.0,
+      "Value": "有"
+    },
+    {
+      "fact": "有發熱、脈浮緩的症狀嗎？",
+      "X": 486.51666666666671,
+      "Y": 50.0,
+      "Width": 139.96999999999997,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有平時身体不好, 体倦自汗、易感冒嗎？",
+      "X": 636.48666666666668,
+      "Y": 50.0,
+      "Width": 115.97000000000003,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "惡寒症狀嚴重嗎？",
+      "X": 762.45666666666671,
+      "Y": 50.0,
+      "Width": 96.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有發熱嗎？",
+      "X": 868.45666666666671,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有頭暈、心煩、手足心熱、乾咳少痰、舌紅少苔嗎？",
+      "X": 958.45666666666671,
+      "Y": 50.0,
+      "Width": 259.87999999999988,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無汗、面舌唇甲淡白、頭暈心悸、脈細或浮而無力嗎？",
+      "X": 1228.3366666666666,
+      "Y": 50.0,
+      "Width": 287.91000000000008,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有咽喉紅腫疼痛嗎？",
+      "X": 1526.2466666666667,
+      "Y": 50.0,
+      "Width": 108.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有口乾渴、頭脹痛的症狀出現嗎？",
+      "X": 1644.2466666666667,
+      "Y": 50.0,
+      "Width": 175.97000000000003,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "任何胸闷?",
+      "X": 1830.2166666666667,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有夏天發熱、汗出熱不解、身重倦怠、口渴、小便短赤、苔黃膩嗎？",
+      "X": 1920.2166666666667,
+      "Y": 50.0,
+      "Width": 339.84999999999991,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有秋季發熱、頭痛乾咳、咽干口燥、舌紅少津、脈數等症狀嗎？",
+      "X": 10.0,
+      "Y": 100.0,
+      "Width": 319.88,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有惡食、噯腐、胸悶嗎",
+      "X": 339.88,
+      "Y": 100.0,
+      "Width": 111.94,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無汗、項強、頭身痛、口不渴、舌苔白、脈浮緊的症狀嗎？",
+      "X": 461.82,
+      "Y": 100.0,
+      "Width": 303.85000000000008,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有咽癢、咳嗽嗎？",
+      "X": 775.67000000000007,
+      "Y": 100.0,
+      "Width": 91.970000000000027,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有食少腹痛、嘔吐、四肢冷嗎？",
+      "X": 877.6400000000001,
+      "Y": 100.0,
+      "Width": 159.94000000000006,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有頭痛身痛、語聲低微、四肢不溫等症狀嗎？",
+      "X": 1047.5800000000002,
+      "Y": 100.0,
+      "Width": 231.94000000000006,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無頭痛、身痛或四肢酸痛？",
+      "X": 1289.5200000000002,
+      "Y": 100.0,
+      "Width": 151.97000000000003,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有語聲低微、四肢不溫等症狀嗎？",
+      "X": 10.0,
+      "Y": 150.0,
+      "Width": 175.97,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無咽癢咳嗽、咳痰？",
+      "X": 195.97,
+      "Y": 150.0,
+      "Width": 115.97,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無語聲低微、四肢不溫、舌淡苔白、脈沉無力？",
+      "X": 321.94,
+      "Y": 150.0,
+      "Width": 251.91000000000003,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "是否有倦怠無力、氣短懶言、頭痛身痛、舌淡苔白、脈浮無力等症狀出現？",
+      "X": 583.85,
+      "Y": 150.0,
+      "Width": 379.88,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無頭痛、身痛或四肢酸痛或項強等症狀？",
+      "X": 973.73,
+      "Y": 150.0,
+      "Width": 223.97000000000003,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無食欲不振、惡心嘔吐、便溏腹瀉等症狀？",
+      "X": 1207.7,
+      "Y": 150.0,
+      "Width": 231.94000000000006,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無胸悶、体倦、頭重等症狀？",
+      "X": 1449.64,
+      "Y": 150.0,
+      "Width": 159.94000000000006,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無脅肋疼痛？",
+      "X": 1619.5800000000002,
+      "Y": 150.0,
+      "Width": 84.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有無咽癢、咳嗽、咳痰？",
+      "X": 1713.5800000000002,
+      "Y": 150.0,
+      "Width": 123.94000000000006,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "那些症狀比較明顯？",
+      "X": 1847.5200000000002,
+      "Y": 150.0,
+      "Width": 108.0,
+      "Height": 40.0,
+      "Value": "發熱"
+    },
+    {
+      "fact": "鼻涕顏色性狀以及舌、脈如何？",
+      "X": 1965.5200000000002,
+      "Y": 150.0,
+      "Width": 163.97000000000003,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "出汗與否鼻涕顏色及頭部感覺如何？",
+      "X": 10.0,
+      "Y": 200.0,
+      "Width": 192.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "發熱症狀嚴重嗎？",
+      "X": 212.0,
+      "Y": 200.0,
+      "Width": 96.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "發熱惡寒何輕何重？",
+      "X": 318.0,
+      "Y": 200.0,
+      "Width": 108.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "痰量多少？是否易于咳出？",
+      "X": 436.0,
+      "Y": 200.0,
+      "Width": 144.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有鼻乾、口渴心煩、舌紅苔黃嗎？",
+      "X": 590.0,
+      "Y": 200.0,
+      "Width": 171.94000000000006,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "口乾渴、頭脹痛那個症狀明顯, 舌、脈如何？",
+      "X": 771.94,
+      "Y": 200.0,
+      "Width": 155.30333333333329,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "那組症狀最明顯？",
+      "X": 937.24333333333334,
+      "Y": 200.0,
+      "Width": 96.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "有咳嗽、鼻涕黃濁、咳痰嗎？  那個症狀較明顯",
+      "X": 1043.2433333333333,
+      "Y": 200.0,
+      "Width": 147.94000000000006,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "那一組症狀最明顯？",
+      "X": 1201.1833333333334,
+      "Y": 200.0,
+      "Width": 108.0,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "發熱的程度如何？",
+      "X": 10.0,
+      "Y": 251.4,
+      "Width": 96.0,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "有無出汗？",
+      "X": 116.0,
+      "Y": 251.4,
+      "Width": 80.0,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "那組症狀比較明顯？",
+      "X": 206.0,
+      "Y": 251.4,
+      "Width": 108.0,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "咽癢咳嗽程度及痰涕顏色性狀？",
+      "X": 324.0,
+      "Y": 251.4,
+      "Width": 168.0,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "頭身痛、四肢酸痛那些症狀較明顯？",
+      "X": 502.0,
+      "Y": 251.4,
+      "Width": 187.97000000000003,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "那些症狀較明顯？",
+      "X": 699.97,
+      "Y": 251.4,
+      "Width": 96.0,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "是否有咳嗽聲重、痰稀白、食欲不掁、胸脘痞悶、苔膩等症狀出現那些症狀較明顯？",
+      "X": 805.97,
+      "Y": 251.4,
+      "Width": 427.88000000000011,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "舌苔如何？",
+      "X": 1243.8500000000001,
+      "Y": 251.4,
+      "Width": 80.0,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "有無咽痛、咳嗽氣急、痰黃粘稠、心煩或小便紅、大便秘結等症那些最明顯？",
+      "X": 1333.8500000000001,
+      "Y": 251.4,
+      "Width": 391.88000000000011,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "其中那些症狀較明顯？",
+      "X": 1735.7300000000003,
+      "Y": 251.4,
+      "Width": 120.0,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "頭身痛、項強、那個症狀較明顯？",
+      "X": 1865.7300000000003,
+      "Y": 251.4,
+      "Width": 171.94000000000006,
+      "Height": 41.400000000000006,
+      "Value": ""
+    },
+    {
+      "fact": "咽癢咳嗽程度及痰涕多少、顏色、性狀？",
+      "X": 10.0,
+      "Y": 302.8,
+      "Width": 207.94000000000003,
+      "Height": 41.400000000000034,
+      "Value": ""
+    },
+    {
+      "fact": "舌、脈如何？",
+      "X": 227.94000000000003,
+      "Y": 302.8,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": ""
+    },
+    {
+      "fact": "口渴與否？",
+      "X": 317.94000000000005,
+      "Y": 302.8,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": ""
+    }
+  ],
+  "aConclusionList": [
+    {
+      "conclusion": "mdD_R01",
+      "X": 10.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R02",
+      "X": 100.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R03",
+      "X": 190.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R04",
+      "X": 280.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R05",
+      "X": 370.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R06",
+      "X": 460.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R07",
+      "X": 550.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R08",
+      "X": 640.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R09",
+      "X": 730.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R10",
+      "X": 820.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R11",
+      "X": 910.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R12",
+      "X": 1000.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R13",
+      "X": 1090.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R14",
+      "X": 1180.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R15",
+      "X": 1270.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R16",
+      "X": 1360.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R17",
+      "X": 1450.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R18",
+      "X": 1540.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R19",
+      "X": 1630.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R20",
+      "X": 1720.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R21",
+      "X": 10.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R22",
+      "X": 100.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R23",
+      "X": 190.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R24",
+      "X": 280.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R25",
+      "X": 370.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R26",
+      "X": 460.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R27",
+      "X": 550.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R28",
+      "X": 640.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R29",
+      "X": 730.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R30",
+      "X": 820.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R31",
+      "X": 910.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R34",
+      "X": 1000.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R35",
+      "X": 1090.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R36",
+      "X": 1180.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R37",
+      "X": 1270.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R38",
+      "X": 1360.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R39",
+      "X": 1450.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R40",
+      "X": 1540.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R41",
+      "X": 1630.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R42",
+      "X": 1720.0,
+      "Y": 4166.0,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R43",
+      "X": 10.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R45",
+      "X": 100.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R49",
+      "X": 190.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R50",
+      "X": 280.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R51",
+      "X": 370.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R52",
+      "X": 460.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R55",
+      "X": 550.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R56",
+      "X": 640.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R57",
+      "X": 730.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R58",
+      "X": 820.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R59",
+      "X": 910.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R61",
+      "X": 1000.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R62",
+      "X": 1090.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R63",
+      "X": 1180.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R64",
+      "X": 1270.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R65",
+      "X": 1360.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R66",
+      "X": 1450.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": 1
+    },
+    {
+      "conclusion": "mdD_R69",
+      "X": 1540.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R70",
+      "X": 1630.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R71",
+      "X": 1720.0,
+      "Y": 4217.4,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_00",
+      "X": 10.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": 1
+    },
+    {
+      "conclusion": "mdQC_01",
+      "X": 100.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": 1
+    },
+    {
+      "conclusion": "mdQC_02",
+      "X": 190.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": 1
+    },
+    {
+      "conclusion": "mdQC_03",
+      "X": 280.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_04",
+      "X": 370.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_05",
+      "X": 460.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_06",
+      "X": 550.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_07",
+      "X": 640.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_08",
+      "X": 730.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_09",
+      "X": 820.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_10",
+      "X": 910.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_11",
+      "X": 1000.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_12",
+      "X": 1090.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_13",
+      "X": 1180.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_14",
+      "X": 1270.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_15",
+      "X": 1360.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_16",
+      "X": 1450.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_17",
+      "X": 1540.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_18",
+      "X": 1630.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_19",
+      "X": 1720.0,
+      "Y": 4268.7999999999993,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_20",
+      "X": 10.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_21",
+      "X": 100.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_22",
+      "X": 190.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_23",
+      "X": 280.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_24",
+      "X": 370.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_25",
+      "X": 460.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_26",
+      "X": 550.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_27",
+      "X": 640.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_28",
+      "X": 730.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_29",
+      "X": 820.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_00",
+      "X": 910.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": 4
+    },
+    {
+      "conclusion": "mdQCM_01",
+      "X": 1000.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_02",
+      "X": 1090.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_03",
+      "X": 1180.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_04",
+      "X": 1270.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_05",
+      "X": 1360.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_06",
+      "X": 1450.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_07",
+      "X": 1540.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_08",
+      "X": 1630.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_09",
+      "X": 1720.0,
+      "Y": 4320.1999999999989,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_10",
+      "X": 10.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_11",
+      "X": 100.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_12",
+      "X": 190.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_13",
+      "X": 280.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_14",
+      "X": 370.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_15",
+      "X": 460.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_16",
+      "X": 550.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_17",
+      "X": 640.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_18",
+      "X": 730.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_19",
+      "X": 820.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_20",
+      "X": 910.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_21",
+      "X": 1000.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_22",
+      "X": 1090.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_23",
+      "X": 1180.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_24",
+      "X": 1270.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_25",
+      "X": 1360.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_26",
+      "X": 1450.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_27",
+      "X": 1540.0,
+      "Y": 4371.5999999999985,
+      "Width": 80.0,
+      "Height": 41.400000000000034,
+      "Value": -1
+    }
+  ]
+}

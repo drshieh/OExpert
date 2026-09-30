@@ -1,0 +1,49 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+build/
+bld/
+[Oo]ut/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Runtime output
+*.trace
+*.T
+*.tmp
+*.log
+Results/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backups and scratch
+*.bak
+*.old
+*~
+*0.json
+*.json0
+*.TXT.bak
+*.TXT.new

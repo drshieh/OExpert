@@ -1,0 +1,1230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{866035BE-3B41-4081-919D-DDE421FCC390}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OExpert</RootNamespace>
+    <AssemblyName>OExpert</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>EXE\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>OL-32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="3DTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\3DTools.1.0.0\lib\net48\3DTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Dragablz, Version=0.0.3.234, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Dragablz.0.0.3.234\lib\net45\Dragablz.dll</HintPath>
+    </Reference>
+    <Reference Include="HelixToolkit, Version=2.25.0.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
+      <HintPath>packages\HelixToolkit.2.25.0\lib\netstandard2.0\HelixToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="HelixToolkit.Wpf, Version=2.25.0.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
+      <HintPath>packages\HelixToolkit.Wpf.2.25.0\lib\net462\HelixToolkit.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="HelixToolkit.Wpf.Input, Version=2.25.0.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
+      <HintPath>packages\HelixToolkit.Wpf.Input.2.25.0\lib\net462\HelixToolkit.Wpf.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="HiraokaHyperTools.PdfSharp-WPF, Version=1.31.7289.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>packages\kenjiuno.PdfSharp-WPF.1.31.7289\lib\net40\HiraokaHyperTools.PdfSharp-WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="HiraokaHyperTools.PdfSharp.Xps, Version=1.1.15.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>packages\kenjiuno.PdfSharp.Xps.1.1.15\lib\net40\HiraokaHyperTools.PdfSharp.Xps.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.AvalonEdit, Version=6.3.0.90, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
+      <HintPath>packages\AvalonEdit.6.3.0.90\lib\net462\ICSharpCode.AvalonEdit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=8.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.8.0.1\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=8.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.8.0.1\lib\net462\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Logging.Abstractions.8.0.2\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=8.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Options.8.0.2\lib\net462\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Primitives.8.0.0\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=8.0.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Pkcs.8.0.1\lib\net462\System.Security.Cryptography.Pkcs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TDx.TDxInput, Version=1.1.0.0, Culture=neutral, PublicKeyToken=3bbf7d14b78dc9f5, processorArchitecture=MSIL">
+      <HintPath>packages\HelixToolkit.Wpf.Input.2.25.0\lib\net462\TDx.TDxInput.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Converters\InputFactRuleConverter.cs" />
+    <Compile Include="ExpertEngine\RConclusion.cs" />
+    <Compile Include="ExpertEngine\RFact.cs" />
+    <Compile Include="ExpertEngine\RCondition.cs" />
+    <Compile Include="ExpertEngine\RuleNet.cs" />
+    <Compile Include="Helper\BackWorker.cs" />
+    <Compile Include="Helper\NamedPipe.cs" />
+    <Compile Include="Helper\Tcp.cs" />
+    <Compile Include="Helper\WPrint.cs" />
+    <Compile Include="UCControl\ActionText.xaml.cs">
+      <DependentUpon>ActionText.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCConclusionInfo.xaml.cs">
+      <DependentUpon>UCConclusionInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCFactInfo.xaml.cs">
+      <DependentUpon>UCFactInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCResultTest.xaml.cs">
+      <DependentUpon>UCResultTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCRuleInfo.xaml.cs">
+      <DependentUpon>UCRuleInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCRuleNetwork.xaml.cs">
+      <DependentUpon>UCRuleNetwork.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCResult.xaml.cs">
+      <DependentUpon>UCResult.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCRuleTree.xaml.cs">
+      <DependentUpon>UCRuleTree.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\WRule_Arrange.cs" />
+    <Compile Include="UI\XInputFact.cs" />
+    <Compile Include="UI\InputFact.cs" />
+    <Compile Include="UI\XCondition.cs" />
+    <Compile Include="UI\XResultTest.cs" />
+    <Compile Include="UI\XResult.cs" />
+    <Compile Include="UI\XTrace.cs" />
+    <Compile Include="View\ConditionDataDlg.xaml.cs">
+      <DependentUpon>ConditionDataDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\TrueFalseConverter.cs" />
+    <Compile Include="ExpertEngine\OExpertFBC.cs" />
+    <Compile Include="UI\XRuleNet.cs" />
+    <Compile Include="ExpertEngine\RunResultFile.cs" />
+    <Compile Include="View\ConclusionInfoDlg.xaml.cs">
+      <DependentUpon>ConclusionInfoDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FactInputOneDlg.xaml.cs">
+      <DependentUpon>FactInputOneDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ItemInfoDlg.xaml.cs">
+      <DependentUpon>ItemInfoDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RunResultsDlg.xaml.cs">
+      <DependentUpon>RunResultsDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ResultTestDlg.xaml.cs">
+      <DependentUpon>ResultTestDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LastRunResultDlg.xaml.cs">
+      <DependentUpon>LastRunResultDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FactInputDlg.xaml.cs">
+      <DependentUpon>FactInputDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExpertEngine\OEngine.cs" />
+    <Compile Include="ExpertEngine\Rule.cs" />
+    <Compile Include="View\FactInfoDlg.xaml.cs">
+      <DependentUpon>FactInfoDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\XWinExec.cs" />
+    <Compile Include="View\RuleInfoDlg.xaml.cs">
+      <DependentUpon>RuleInfoDlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCDrawArea.xaml.cs">
+      <DependentUpon>UCDrawArea.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\WDrawRule.cs" />
+    <Compile Include="UCControl\WRule_Locat.cs" />
+    <Compile Include="UCControl\WSettings.cs" />
+    <Compile Include="UI\XConclusion.cs" />
+    <Compile Include="UI\XFact.cs" />
+    <Compile Include="UI\XRule.cs" />
+    <Compile Include="UI\XRule_UI.cs" />
+    <Page Include="AvalonEdit\AvalonEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AvalonEdit\UCAvalonEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\ActionText.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\UCConclusionInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\UCFactInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\UCResultTest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\UCRuleInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\UCRuleNetwork.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\UCResult.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\UCRuleTree.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ConditionDataDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ConclusionInfoDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\FactInputOneDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ItemInfoDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\RunResultsDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ResultTestDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\LastRunResultDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\FactInputDlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AvalonEdit\AvalonEditor.xaml.cs">
+      <DependentUpon>AvalonEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AvalonEdit\BraceFoldingStrategy.cs" />
+    <Compile Include="AvalonEdit\ColorizeAvalonEdit.cs" />
+    <Compile Include="AvalonEdit\ImageElementGenerator.cs" />
+    <Compile Include="AvalonEdit\MyCompletionData.cs" />
+    <Compile Include="AvalonEdit\UCAvalonEditor.xaml.cs">
+      <DependentUpon>UCAvalonEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\WHelper.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\FactInfoDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\RuleInfoDlg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UCControl\UCDrawArea.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\IBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AvalonEdit\CustomHighlighting.xshd" />
+    <None Include="Data\Cold.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Cold.rn" />
+    <None Include="Data\han_cold-TC.json" />
+    <None Include="Data\han_cold0.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images2\alert-circled.png" />
+    <Resource Include="Images2\alert.png" />
+    <Resource Include="Images2\android-add-contact.png" />
+    <Resource Include="Images2\android-add.png" />
+    <Resource Include="Images2\android-alarm.png" />
+    <Resource Include="Images2\android-archive.png" />
+    <Resource Include="Images2\android-arrow-back.png" />
+    <Resource Include="Images2\android-arrow-down-left.png" />
+    <Resource Include="Images2\android-arrow-down-right.png" />
+    <Resource Include="Images2\android-arrow-forward.png" />
+    <Resource Include="Images2\android-arrow-up-left.png" />
+    <Resource Include="Images2\android-arrow-up-right.png" />
+    <Resource Include="Images2\android-battery.png" />
+    <Resource Include="Images2\android-book.png" />
+    <Resource Include="Images2\android-calendar.png" />
+    <Resource Include="Images2\android-call.png" />
+    <Resource Include="Images2\android-camera.png" />
+    <Resource Include="Images2\android-chat.png" />
+    <Resource Include="Images2\android-checkmark.png" />
+    <Resource Include="Images2\android-clock.png" />
+    <Resource Include="Images2\android-close.png" />
+    <Resource Include="Images2\android-contact.png" />
+    <Resource Include="Images2\android-contacts.png" />
+    <Resource Include="Images2\android-data.png" />
+    <Resource Include="Images2\android-developer.png" />
+    <Resource Include="Images2\android-display.png" />
+    <Resource Include="Images2\android-download.png" />
+    <Resource Include="Images2\android-drawer.png" />
+    <Resource Include="Images2\android-dropdown.png" />
+    <Resource Include="Images2\android-earth.png" />
+    <Resource Include="Images2\android-folder.png" />
+    <Resource Include="Images2\android-forums.png" />
+    <Resource Include="Images2\android-friends.png" />
+    <Resource Include="Images2\android-hand.png" />
+    <Resource Include="Images2\android-image.png" />
+    <Resource Include="Images2\android-inbox.png" />
+    <Resource Include="Images2\android-information.png" />
+    <Resource Include="Images2\android-keypad.png" />
+    <Resource Include="Images2\android-lightbulb.png" />
+    <Resource Include="Images2\android-locate.png" />
+    <Resource Include="Images2\android-location.png" />
+    <Resource Include="Images2\android-mail.png" />
+    <Resource Include="Images2\android-microphone.png" />
+    <Resource Include="Images2\android-mixer.png" />
+    <Resource Include="Images2\android-more.png" />
+    <Resource Include="Images2\android-note.png" />
+    <Resource Include="Images2\android-playstore.png" />
+    <Resource Include="Images2\android-printer.png" />
+    <Resource Include="Images2\android-promotion.png" />
+    <Resource Include="Images2\android-reminder.png" />
+    <Resource Include="Images2\android-remove.png" />
+    <Resource Include="Images2\android-search.png" />
+    <Resource Include="Images2\android-send.png" />
+    <Resource Include="Images2\android-settings.png" />
+    <Resource Include="Images2\android-share.png" />
+    <Resource Include="Images2\android-social-user.png" />
+    <Resource Include="Images2\android-social.png" />
+    <Resource Include="Images2\android-sort.png" />
+    <Resource Include="Images2\android-stair-drawer.png" />
+    <Resource Include="Images2\android-star.png" />
+    <Resource Include="Images2\android-stopwatch.png" />
+    <Resource Include="Images2\android-storage.png" />
+    <Resource Include="Images2\android-system-back.png" />
+    <Resource Include="Images2\android-system-home.png" />
+    <Resource Include="Images2\android-system-windows.png" />
+    <Resource Include="Images2\android-timer.png" />
+    <Resource Include="Images2\android-trash.png" />
+    <Resource Include="Images2\android-user-menu.png" />
+    <Resource Include="Images2\android-volume.png" />
+    <Resource Include="Images2\android-wifi.png" />
+    <Resource Include="Images2\aperture.png" />
+    <Resource Include="Images2\archive.png" />
+    <Resource Include="Images2\arrow-down-a.png" />
+    <Resource Include="Images2\arrow-down-b.png" />
+    <Resource Include="Images2\arrow-down-c.png" />
+    <Resource Include="Images2\arrow-expand.png" />
+    <Resource Include="Images2\arrow-graph-down-left.png" />
+    <Resource Include="Images2\arrow-graph-down-right.png" />
+    <Resource Include="Images2\arrow-graph-up-left.png" />
+    <Resource Include="Images2\arrow-graph-up-right.png" />
+    <Resource Include="Images2\arrow-left-a.png" />
+    <Resource Include="Images2\arrow-left-b.png" />
+    <Resource Include="Images2\arrow-left-c.png" />
+    <Resource Include="Images2\arrow-move.png" />
+    <Resource Include="Images2\arrow-resize.png" />
+    <Resource Include="Images2\arrow-return-left.png" />
+    <Resource Include="Images2\arrow-return-right.png" />
+    <Resource Include="Images2\arrow-right-a.png" />
+    <Resource Include="Images2\arrow-right-b.png" />
+    <Resource Include="Images2\arrow-right-c.png" />
+    <Resource Include="Images2\arrow-shrink.png" />
+    <Resource Include="Images2\arrow-swap.png" />
+    <Resource Include="Images2\arrow-up-a.png" />
+    <Resource Include="Images2\arrow-up-b.png" />
+    <Resource Include="Images2\arrow-up-c.png" />
+    <Resource Include="Images2\asterisk.png" />
+    <Resource Include="Images2\at.png" />
+    <Resource Include="Images2\bag.png" />
+    <Resource Include="Images2\battery-charging.png" />
+    <Resource Include="Images2\battery-empty.png" />
+    <Resource Include="Images2\battery-full.png" />
+    <Resource Include="Images2\battery-half.png" />
+    <Resource Include="Images2\battery-low.png" />
+    <Resource Include="Images2\beaker.png" />
+    <Resource Include="Images2\beer.png" />
+    <Resource Include="Images2\bluetooth.png" />
+    <Resource Include="Images2\bonfire.png" />
+    <Resource Include="Images2\bookmark.png" />
+    <Resource Include="Images2\briefcase.png" />
+    <Resource Include="Images2\bug.png" />
+    <Resource Include="Images2\calculator.png" />
+    <Resource Include="Images2\calendar.png" />
+    <Resource Include="Images2\camera.png" />
+    <Resource Include="Images2\card.png" />
+    <Resource Include="Images2\cash.png" />
+    <Resource Include="Images2\chatbox-working.png" />
+    <Resource Include="Images2\chatbox.png" />
+    <Resource Include="Images2\chatboxes.png" />
+    <Resource Include="Images2\chatbubble-working.png" />
+    <Resource Include="Images2\chatbubble.png" />
+    <Resource Include="Images2\chatbubbles.png" />
+    <Resource Include="Images2\checkmark-circled.png" />
+    <Resource Include="Images2\checkmark-round.png" />
+    <Resource Include="Images2\checkmark.png" />
+    <Resource Include="Images2\chevron-down.png" />
+    <Resource Include="Images2\chevron-left.png" />
+    <Resource Include="Images2\chevron-right.png" />
+    <Resource Include="Images2\chevron-up.png" />
+    <Resource Include="Images2\clipboard.png" />
+    <Resource Include="Images2\clock.png" />
+    <Resource Include="Images2\close-circled.png" />
+    <Resource Include="Images2\close-round.png" />
+    <Resource Include="Images2\close.png" />
+    <Resource Include="Images2\closed-captioning.png" />
+    <Resource Include="Images2\cloud.png" />
+    <Resource Include="Images2\code-download.png" />
+    <Resource Include="Images2\code-working.png" />
+    <Resource Include="Images2\code.png" />
+    <Resource Include="Images2\coffee.png" />
+    <Resource Include="Images2\compass.png" />
+    <Resource Include="Images2\compose.png" />
+    <Resource Include="Images2\connection-bars.png" />
+    <Resource Include="Images2\contrast.png" />
+    <Resource Include="Images2\cube.png" />
+    <Resource Include="Images2\disc.png" />
+    <Resource Include="Images2\document-text.png" />
+    <Resource Include="Images2\document.png" />
+    <Resource Include="Images2\drag.png" />
+    <Resource Include="Images2\earth.png" />
+    <Resource Include="Images2\edit.png" />
+    <Resource Include="Images2\egg.png" />
+    <Resource Include="Images2\eject.png" />
+    <Resource Include="Images2\email.png" />
+    <Resource Include="Images2\eye-disabled.png" />
+    <Resource Include="Images2\eye.png" />
+    <Resource Include="Images2\female.png" />
+    <Resource Include="Images2\filing.png" />
+    <Resource Include="Images2\film-marker.png" />
+    <Resource Include="Images2\fireball.png" />
+    <Resource Include="Images2\flag.png" />
+    <Resource Include="Images2\flame.png" />
+    <Resource Include="Images2\flash-off.png" />
+    <Resource Include="Images2\flash.png" />
+    <Resource Include="Images2\flask.png" />
+    <Resource Include="Images2\folder.png" />
+    <Resource Include="Images2\fork-repo.png" />
+    <Resource Include="Images2\fork.png" />
+    <Resource Include="Images2\forward.png" />
+    <Resource Include="Images2\funnel.png" />
+    <Resource Include="Images2\game-controller-a.png" />
+    <Resource Include="Images2\game-controller-b.png" />
+    <Resource Include="Images2\gear-a.png" />
+    <Resource Include="Images2\gear-b.png" />
+    <Resource Include="Images2\grid.png" />
+    <Resource Include="Images2\hammer.png" />
+    <Resource Include="Images2\happy.png" />
+    <Resource Include="Images2\headphone.png" />
+    <Resource Include="Images2\heart-broken.png" />
+    <Resource Include="Images2\heart.png" />
+    <Resource Include="Images2\help-buoy.png" />
+    <Resource Include="Images2\help-circled.png" />
+    <Resource Include="Images2\help.png" />
+    <Resource Include="Images2\home.png" />
+    <Resource Include="Images2\icecream.png" />
+    <Resource Include="Images2\icon-social-google-plus-outline.png" />
+    <Resource Include="Images2\icon-social-google-plus.png" />
+    <Resource Include="Images2\image.png" />
+    <Resource Include="Images2\images.png" />
+    <Resource Include="Images2\information-circled.png" />
+    <Resource Include="Images2\information.png" />
+    <Resource Include="Images2\ionic.png" />
+    <Resource Include="Images2\ios7-alarm-outline.png" />
+    <Resource Include="Images2\ios7-alarm.png" />
+    <Resource Include="Images2\ios7-albums-outline.png" />
+    <Resource Include="Images2\ios7-albums.png" />
+    <Resource Include="Images2\ios7-americanfootball-outline.png" />
+    <Resource Include="Images2\ios7-americanfootball.png" />
+    <Resource Include="Images2\ios7-analytics-outline.png" />
+    <Resource Include="Images2\ios7-analytics.png" />
+    <Resource Include="Images2\ios7-arrow-back.png" />
+    <Resource Include="Images2\ios7-arrow-down.png" />
+    <Resource Include="Images2\ios7-arrow-forward.png" />
+    <Resource Include="Images2\ios7-arrow-left.png" />
+    <Resource Include="Images2\ios7-arrow-right.png" />
+    <Resource Include="Images2\ios7-arrow-thin-down.png" />
+    <Resource Include="Images2\ios7-arrow-thin-left.png" />
+    <Resource Include="Images2\ios7-arrow-thin-right.png" />
+    <Resource Include="Images2\ios7-arrow-thin-up.png" />
+    <Resource Include="Images2\ios7-arrow-up.png" />
+    <Resource Include="Images2\ios7-at-outline.png" />
+    <Resource Include="Images2\ios7-at.png" />
+    <Resource Include="Images2\ios7-barcode-outline.png" />
+    <Resource Include="Images2\ios7-barcode.png" />
+    <Resource Include="Images2\ios7-baseball-outline.png" />
+    <Resource Include="Images2\ios7-baseball.png" />
+    <Resource Include="Images2\ios7-basketball-outline.png" />
+    <Resource Include="Images2\ios7-basketball.png" />
+    <Resource Include="Images2\ios7-bell-outline.png" />
+    <Resource Include="Images2\ios7-bell.png" />
+    <Resource Include="Images2\ios7-bolt-outline.png" />
+    <Resource Include="Images2\ios7-bolt.png" />
+    <Resource Include="Images2\ios7-bookmarks-outline.png" />
+    <Resource Include="Images2\ios7-bookmarks.png" />
+    <Resource Include="Images2\ios7-box-outline.png" />
+    <Resource Include="Images2\ios7-box.png" />
+    <Resource Include="Images2\ios7-briefcase-outline.png" />
+    <Resource Include="Images2\ios7-briefcase.png" />
+    <Resource Include="Images2\ios7-browsers-outline.png" />
+    <Resource Include="Images2\ios7-browsers.png" />
+    <Resource Include="Images2\ios7-calculator-outline.png" />
+    <Resource Include="Images2\ios7-calculator.png" />
+    <Resource Include="Images2\ios7-calendar-outline.png" />
+    <Resource Include="Images2\ios7-calendar.png" />
+    <Resource Include="Images2\ios7-camera-outline.png" />
+    <Resource Include="Images2\ios7-camera.png" />
+    <Resource Include="Images2\ios7-cart-outline.png" />
+    <Resource Include="Images2\ios7-cart.png" />
+    <Resource Include="Images2\ios7-chatboxes-outline.png" />
+    <Resource Include="Images2\ios7-chatboxes.png" />
+    <Resource Include="Images2\ios7-chatbubble-outline.png" />
+    <Resource Include="Images2\ios7-chatbubble.png" />
+    <Resource Include="Images2\ios7-checkmark-empty.png" />
+    <Resource Include="Images2\ios7-checkmark-outline.png" />
+    <Resource Include="Images2\ios7-checkmark.png" />
+    <Resource Include="Images2\ios7-circle-filled.png" />
+    <Resource Include="Images2\ios7-circle-outline.png" />
+    <Resource Include="Images2\ios7-clock-outline.png" />
+    <Resource Include="Images2\ios7-clock.png" />
+    <Resource Include="Images2\ios7-close-empty.png" />
+    <Resource Include="Images2\ios7-close-outline.png" />
+    <Resource Include="Images2\ios7-close.png" />
+    <Resource Include="Images2\ios7-cloud-download-outline.png" />
+    <Resource Include="Images2\ios7-cloud-download.png" />
+    <Resource Include="Images2\ios7-cloud-outline.png" />
+    <Resource Include="Images2\ios7-cloud-upload-outline.png" />
+    <Resource Include="Images2\ios7-cloud-upload.png" />
+    <Resource Include="Images2\ios7-cloud.png" />
+    <Resource Include="Images2\ios7-cloudy-night-outline.png" />
+    <Resource Include="Images2\ios7-cloudy-night.png" />
+    <Resource Include="Images2\ios7-cloudy-outline.png" />
+    <Resource Include="Images2\ios7-cloudy.png" />
+    <Resource Include="Images2\ios7-cog-outline.png" />
+    <Resource Include="Images2\ios7-cog.png" />
+    <Resource Include="Images2\ios7-compose-outline.png" />
+    <Resource Include="Images2\ios7-compose.png" />
+    <Resource Include="Images2\ios7-contact-outline.png" />
+    <Resource Include="Images2\ios7-contact.png" />
+    <Resource Include="Images2\ios7-copy-outline.png" />
+    <Resource Include="Images2\ios7-copy.png" />
+    <Resource Include="Images2\ios7-download-outline.png" />
+    <Resource Include="Images2\ios7-download.png" />
+    <Resource Include="Images2\ios7-drag.png" />
+    <Resource Include="Images2\ios7-email-outline.png" />
+    <Resource Include="Images2\ios7-email.png" />
+    <Resource Include="Images2\ios7-expand.png" />
+    <Resource Include="Images2\ios7-eye-outline.png" />
+    <Resource Include="Images2\ios7-eye.png" />
+    <Resource Include="Images2\ios7-fastforward-outline.png" />
+    <Resource Include="Images2\ios7-fastforward.png" />
+    <Resource Include="Images2\ios7-filing-outline.png" />
+    <Resource Include="Images2\ios7-filing.png" />
+    <Resource Include="Images2\ios7-film-outline.png" />
+    <Resource Include="Images2\ios7-film.png" />
+    <Resource Include="Images2\ios7-flag-outline.png" />
+    <Resource Include="Images2\ios7-flag.png" />
+    <Resource Include="Images2\ios7-folder-outline.png" />
+    <Resource Include="Images2\ios7-folder.png" />
+    <Resource Include="Images2\ios7-football-outline.png" />
+    <Resource Include="Images2\ios7-football.png" />
+    <Resource Include="Images2\ios7-gear-outline.png" />
+    <Resource Include="Images2\ios7-gear.png" />
+    <Resource Include="Images2\ios7-glasses-outline.png" />
+    <Resource Include="Images2\ios7-glasses.png" />
+    <Resource Include="Images2\ios7-heart-outline.png" />
+    <Resource Include="Images2\ios7-heart.png" />
+    <Resource Include="Images2\ios7-help-empty.png" />
+    <Resource Include="Images2\ios7-help-outline.png" />
+    <Resource Include="Images2\ios7-help.png" />
+    <Resource Include="Images2\ios7-home-outline.png" />
+    <Resource Include="Images2\ios7-home.png" />
+    <Resource Include="Images2\ios7-infinite-outline.png" />
+    <Resource Include="Images2\ios7-infinite.png" />
+    <Resource Include="Images2\ios7-information-empty.png" />
+    <Resource Include="Images2\ios7-information-outline.png" />
+    <Resource Include="Images2\ios7-information.png" />
+    <Resource Include="Images2\ios7-ionic-outline.png" />
+    <Resource Include="Images2\ios7-keypad-outline.png" />
+    <Resource Include="Images2\ios7-keypad.png" />
+    <Resource Include="Images2\ios7-lightbulb-outline.png" />
+    <Resource Include="Images2\ios7-lightbulb.png" />
+    <Resource Include="Images2\ios7-location-outline.png" />
+    <Resource Include="Images2\ios7-location.png" />
+    <Resource Include="Images2\ios7-locked-outline.png" />
+    <Resource Include="Images2\ios7-locked.png" />
+    <Resource Include="Images2\ios7-loop-strong.png" />
+    <Resource Include="Images2\ios7-loop.png" />
+    <Resource Include="Images2\ios7-medkit-outline.png" />
+    <Resource Include="Images2\ios7-medkit.png" />
+    <Resource Include="Images2\ios7-mic-off.png" />
+    <Resource Include="Images2\ios7-mic-outline.png" />
+    <Resource Include="Images2\ios7-mic.png" />
+    <Resource Include="Images2\ios7-minus-empty.png" />
+    <Resource Include="Images2\ios7-minus-outline.png" />
+    <Resource Include="Images2\ios7-minus.png" />
+    <Resource Include="Images2\ios7-monitor-outline.png" />
+    <Resource Include="Images2\ios7-monitor.png" />
+    <Resource Include="Images2\ios7-moon-outline.png" />
+    <Resource Include="Images2\ios7-moon.png" />
+    <Resource Include="Images2\ios7-more-outline.png" />
+    <Resource Include="Images2\ios7-more.png" />
+    <Resource Include="Images2\ios7-musical-note.png" />
+    <Resource Include="Images2\ios7-musical-notes.png" />
+    <Resource Include="Images2\ios7-navigate-outline.png" />
+    <Resource Include="Images2\ios7-navigate.png" />
+    <Resource Include="Images2\ios7-paper-outline.png" />
+    <Resource Include="Images2\ios7-paper.png" />
+    <Resource Include="Images2\ios7-paperplane-outline.png" />
+    <Resource Include="Images2\ios7-paperplane.png" />
+    <Resource Include="Images2\ios7-partlysunny-outline.png" />
+    <Resource Include="Images2\ios7-partlysunny.png" />
+    <Resource Include="Images2\ios7-pause-outline.png" />
+    <Resource Include="Images2\ios7-pause.png" />
+    <Resource Include="Images2\ios7-paw-outline.png" />
+    <Resource Include="Images2\ios7-paw.png" />
+    <Resource Include="Images2\ios7-people-outline.png" />
+    <Resource Include="Images2\ios7-people.png" />
+    <Resource Include="Images2\ios7-person-outline.png" />
+    <Resource Include="Images2\ios7-person.png" />
+    <Resource Include="Images2\ios7-personadd-outline.png" />
+    <Resource Include="Images2\ios7-personadd.png" />
+    <Resource Include="Images2\ios7-photos-outline.png" />
+    <Resource Include="Images2\ios7-photos.png" />
+    <Resource Include="Images2\ios7-pie-outline.png" />
+    <Resource Include="Images2\ios7-pie.png" />
+    <Resource Include="Images2\ios7-play-outline.png" />
+    <Resource Include="Images2\ios7-play.png" />
+    <Resource Include="Images2\ios7-plus-empty.png" />
+    <Resource Include="Images2\ios7-plus-outline.png" />
+    <Resource Include="Images2\ios7-plus.png" />
+    <Resource Include="Images2\ios7-pricetag-outline.png" />
+    <Resource Include="Images2\ios7-pricetag.png" />
+    <Resource Include="Images2\ios7-pricetags-outline.png" />
+    <Resource Include="Images2\ios7-pricetags.png" />
+    <Resource Include="Images2\ios7-printer-outline.png" />
+    <Resource Include="Images2\ios7-printer.png" />
+    <Resource Include="Images2\ios7-pulse-strong.png" />
+    <Resource Include="Images2\ios7-pulse.png" />
+    <Resource Include="Images2\ios7-rainy-outline.png" />
+    <Resource Include="Images2\ios7-rainy.png" />
+    <Resource Include="Images2\ios7-recording-outline.png" />
+    <Resource Include="Images2\ios7-recording.png" />
+    <Resource Include="Images2\ios7-redo-outline.png" />
+    <Resource Include="Images2\ios7-redo.png" />
+    <Resource Include="Images2\ios7-refresh-empty.png" />
+    <Resource Include="Images2\ios7-refresh-outline.png" />
+    <Resource Include="Images2\ios7-refresh.png" />
+    <Resource Include="Images2\ios7-reload.png" />
+    <Resource Include="Images2\ios7-reverse-camera-outline.png" />
+    <Resource Include="Images2\ios7-reverse-camera.png" />
+    <Resource Include="Images2\ios7-rewind-outline.png" />
+    <Resource Include="Images2\ios7-rewind.png" />
+    <Resource Include="Images2\ios7-search-strong.png" />
+    <Resource Include="Images2\ios7-search.png" />
+    <Resource Include="Images2\ios7-settings-strong.png" />
+    <Resource Include="Images2\ios7-settings.png" />
+    <Resource Include="Images2\ios7-shrink.png" />
+    <Resource Include="Images2\ios7-skipbackward-outline.png" />
+    <Resource Include="Images2\ios7-skipbackward.png" />
+    <Resource Include="Images2\ios7-skipforward-outline.png" />
+    <Resource Include="Images2\ios7-skipforward.png" />
+    <Resource Include="Images2\ios7-snowy.png" />
+    <Resource Include="Images2\ios7-speedometer-outline.png" />
+    <Resource Include="Images2\ios7-speedometer.png" />
+    <Resource Include="Images2\ios7-star-half.png" />
+    <Resource Include="Images2\ios7-star-outline.png" />
+    <Resource Include="Images2\ios7-star.png" />
+    <Resource Include="Images2\ios7-stopwatch-outline.png" />
+    <Resource Include="Images2\ios7-stopwatch.png" />
+    <Resource Include="Images2\ios7-sunny-outline.png" />
+    <Resource Include="Images2\ios7-sunny.png" />
+    <Resource Include="Images2\ios7-telephone-outline.png" />
+    <Resource Include="Images2\ios7-telephone.png" />
+    <Resource Include="Images2\ios7-tennisball-outline.png" />
+    <Resource Include="Images2\ios7-tennisball.png" />
+    <Resource Include="Images2\ios7-thunderstorm-outline.png" />
+    <Resource Include="Images2\ios7-thunderstorm.png" />
+    <Resource Include="Images2\ios7-time-outline.png" />
+    <Resource Include="Images2\ios7-time.png" />
+    <Resource Include="Images2\ios7-timer-outline.png" />
+    <Resource Include="Images2\ios7-timer.png" />
+    <Resource Include="Images2\ios7-toggle-outline.png" />
+    <Resource Include="Images2\ios7-toggle.png" />
+    <Resource Include="Images2\ios7-trash-outline.png" />
+    <Resource Include="Images2\ios7-trash.png" />
+    <Resource Include="Images2\ios7-undo-outline.png" />
+    <Resource Include="Images2\ios7-undo.png" />
+    <Resource Include="Images2\ios7-unlocked-outline.png" />
+    <Resource Include="Images2\ios7-unlocked.png" />
+    <Resource Include="Images2\ios7-upload-outline.png" />
+    <Resource Include="Images2\ios7-upload.png" />
+    <Resource Include="Images2\ios7-videocam-outline.png" />
+    <Resource Include="Images2\ios7-videocam.png" />
+    <Resource Include="Images2\ios7-volume-high.png" />
+    <Resource Include="Images2\ios7-volume-low.png" />
+    <Resource Include="Images2\ios7-wineglass-outline.png" />
+    <Resource Include="Images2\ios7-wineglass.png" />
+    <Resource Include="Images2\ios7-world-outline.png" />
+    <Resource Include="Images2\ios7-world.png" />
+    <Resource Include="Images2\ipad.png" />
+    <Resource Include="Images2\iphone.png" />
+    <Resource Include="Images2\ipod.png" />
+    <Resource Include="Images2\jet.png" />
+    <Resource Include="Images2\key.png" />
+    <Resource Include="Images2\knife.png" />
+    <Resource Include="Images2\laptop.png" />
+    <Resource Include="Images2\leaf.png" />
+    <Resource Include="Images2\levels.png" />
+    <Resource Include="Images2\lightbulb.png" />
+    <Resource Include="Images2\link.png" />
+    <Resource Include="Images2\load-a.png" />
+    <Resource Include="Images2\load-b.png" />
+    <Resource Include="Images2\load-c.png" />
+    <Resource Include="Images2\load-d.png" />
+    <Resource Include="Images2\location.png" />
+    <Resource Include="Images2\locked.png" />
+    <Resource Include="Images2\log-in.png" />
+    <Resource Include="Images2\log-out.png" />
+    <Resource Include="Images2\loop.png" />
+    <Resource Include="Images2\magnet.png" />
+    <Resource Include="Images2\male.png" />
+    <Resource Include="Images2\man.png" />
+    <Resource Include="Images2\map.png" />
+    <Resource Include="Images2\medkit.png" />
+    <Resource Include="Images2\merge.png" />
+    <Resource Include="Images2\mic-a.png" />
+    <Resource Include="Images2\mic-b.png" />
+    <Resource Include="Images2\mic-c.png" />
+    <Resource Include="Images2\minus-circled.png" />
+    <Resource Include="Images2\minus-round.png" />
+    <Resource Include="Images2\minus.png" />
+    <Resource Include="Images2\model-s.png" />
+    <Resource Include="Images2\monitor.png" />
+    <Resource Include="Images2\more.png" />
+    <Resource Include="Images2\mouse.png" />
+    <Resource Include="Images2\music-note.png" />
+    <Resource Include="Images2\navicon-round.png" />
+    <Resource Include="Images2\navicon.png" />
+    <Resource Include="Images2\navigate.png" />
+    <Resource Include="Images2\network.png" />
+    <Resource Include="Images2\no-smoking.png" />
+    <Resource Include="Images2\nuclear.png" />
+    <Resource Include="Images2\outlet.png" />
+    <Resource Include="Images2\paper-airplane.png" />
+    <Resource Include="Images2\paperclip.png" />
+    <Resource Include="Images2\pause.png" />
+    <Resource Include="Images2\person-add.png" />
+    <Resource Include="Images2\person-stalker.png" />
+    <Resource Include="Images2\person.png" />
+    <Resource Include="Images2\pie-graph.png" />
+    <Resource Include="Images2\pin.png" />
+    <Resource Include="Images2\pinpoint.png" />
+    <Resource Include="Images2\pizza.png" />
+    <Resource Include="Images2\plane.png" />
+    <Resource Include="Images2\planet.png" />
+    <Resource Include="Images2\play.png" />
+    <Resource Include="Images2\playstation.png" />
+    <Resource Include="Images2\plus-circled.png" />
+    <Resource Include="Images2\plus-round.png" />
+    <Resource Include="Images2\plus.png" />
+    <Resource Include="Images2\podium.png" />
+    <Resource Include="Images2\pound.png" />
+    <Resource Include="Images2\power.png" />
+    <Resource Include="Images2\pricetag.png" />
+    <Resource Include="Images2\pricetags.png" />
+    <Resource Include="Images2\printer.png" />
+    <Resource Include="Images2\pull-request.png" />
+    <Resource Include="Images2\qr-scanner.png" />
+    <Resource Include="Images2\quote.png" />
+    <Resource Include="Images2\radio-waves.png" />
+    <Resource Include="Images2\record.png" />
+    <Resource Include="Images2\refresh.png" />
+    <Resource Include="Images2\reply-all.png" />
+    <Resource Include="Images2\reply.png" />
+    <Resource Include="Images2\ribbon-a.png" />
+    <Resource Include="Images2\ribbon-b.png" />
+    <Resource Include="Images2\sad.png" />
+    <Resource Include="Images2\scissors.png" />
+    <Resource Include="Images2\search.png" />
+    <Resource Include="Images2\settings.png" />
+    <Resource Include="Images2\share.png" />
+    <Resource Include="Images2\shuffle.png" />
+    <Resource Include="Images2\skip-backward.png" />
+    <Resource Include="Images2\skip-forward.png" />
+    <Resource Include="Images2\social-android-outline.png" />
+    <Resource Include="Images2\social-android.png" />
+    <Resource Include="Images2\social-apple-outline.png" />
+    <Resource Include="Images2\social-apple.png" />
+    <Resource Include="Images2\social-bitcoin-outline.png" />
+    <Resource Include="Images2\social-bitcoin.png" />
+    <Resource Include="Images2\social-buffer-outline.png" />
+    <Resource Include="Images2\social-buffer.png" />
+    <Resource Include="Images2\social-designernews-outline.png" />
+    <Resource Include="Images2\social-designernews.png" />
+    <Resource Include="Images2\social-dribbble-outline.png" />
+    <Resource Include="Images2\social-dribbble.png" />
+    <Resource Include="Images2\social-dropbox-outline.png" />
+    <Resource Include="Images2\social-dropbox.png" />
+    <Resource Include="Images2\social-facebook-outline.png" />
+    <Resource Include="Images2\social-facebook.png" />
+    <Resource Include="Images2\social-foursquare-outline.png" />
+    <Resource Include="Images2\social-foursquare.png" />
+    <Resource Include="Images2\social-freebsd-devil.png" />
+    <Resource Include="Images2\social-github-outline.png" />
+    <Resource Include="Images2\social-github.png" />
+    <Resource Include="Images2\social-google-outline.png" />
+    <Resource Include="Images2\social-google.png" />
+    <Resource Include="Images2\social-googleplus-outline.png" />
+    <Resource Include="Images2\social-googleplus.png" />
+    <Resource Include="Images2\social-hackernews-outline.png" />
+    <Resource Include="Images2\social-hackernews.png" />
+    <Resource Include="Images2\social-instagram-outline.png" />
+    <Resource Include="Images2\social-instagram.png" />
+    <Resource Include="Images2\social-linkedin-outline.png" />
+    <Resource Include="Images2\social-linkedin.png" />
+    <Resource Include="Images2\social-pinterest-outline.png" />
+    <Resource Include="Images2\social-pinterest.png" />
+    <Resource Include="Images2\social-reddit-outline.png" />
+    <Resource Include="Images2\social-reddit.png" />
+    <Resource Include="Images2\social-rss-outline.png" />
+    <Resource Include="Images2\social-rss.png" />
+    <Resource Include="Images2\social-skype-outline.png" />
+    <Resource Include="Images2\social-skype.png" />
+    <Resource Include="Images2\social-tumblr-outline.png" />
+    <Resource Include="Images2\social-tumblr.png" />
+    <Resource Include="Images2\social-tux.png" />
+    <Resource Include="Images2\social-twitter-outline.png" />
+    <Resource Include="Images2\social-twitter.png" />
+    <Resource Include="Images2\social-usd-outline.png" />
+    <Resource Include="Images2\social-usd.png" />
+    <Resource Include="Images2\social-vimeo-outline.png" />
+    <Resource Include="Images2\social-vimeo.png" />
+    <Resource Include="Images2\social-windows-outline.png" />
+    <Resource Include="Images2\social-windows.png" />
+    <Resource Include="Images2\social-wordpress-outline.png" />
+    <Resource Include="Images2\social-wordpress.png" />
+    <Resource Include="Images2\social-yahoo-outline.png" />
+    <Resource Include="Images2\social-yahoo.png" />
+    <Resource Include="Images2\social-youtube-outline.png" />
+    <Resource Include="Images2\social-youtube.png" />
+    <Resource Include="Images2\speakerphone.png" />
+    <Resource Include="Images2\speedometer.png" />
+    <Resource Include="Images2\spoon.png" />
+    <Resource Include="Images2\star.png" />
+    <Resource Include="Images2\stats-bars.png" />
+    <Resource Include="Images2\steam.png" />
+    <Resource Include="Images2\stop.png" />
+    <Resource Include="Images2\thermometer.png" />
+    <Resource Include="Images2\thumbsdown.png" />
+    <Resource Include="Images2\thumbsup.png" />
+    <Resource Include="Images2\toggle-filled.png" />
+    <Resource Include="Images2\toggle.png" />
+    <Resource Include="Images2\trash-a.png" />
+    <Resource Include="Images2\trash-b.png" />
+    <Resource Include="Images2\trophy.png" />
+    <Resource Include="Images2\umbrella.png" />
+    <Resource Include="Images2\university.png" />
+    <Resource Include="Images2\unlocked.png" />
+    <Resource Include="Images2\upload.png" />
+    <Resource Include="Images2\usb.png" />
+    <Resource Include="Images2\videocamera.png" />
+    <Resource Include="Images2\volume-high.png" />
+    <Resource Include="Images2\volume-low.png" />
+    <Resource Include="Images2\volume-medium.png" />
+    <Resource Include="Images2\volume-mute.png" />
+    <Resource Include="Images2\wand.png" />
+    <Resource Include="Images2\waterdrop.png" />
+    <Resource Include="Images2\wifi.png" />
+    <Resource Include="Images2\wineglass.png" />
+    <Resource Include="Images2\woman.png" />
+    <Resource Include="Images2\wrench.png" />
+    <Resource Include="Images2\xbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\add.png" />
+    <Resource Include="Images\align_bottom.png" />
+    <Resource Include="Images\align_center.png" />
+    <Resource Include="Images\align_evenly_vertical.png" />
+    <Resource Include="Images\align_left.png" />
+    <Resource Include="Images\align_middle.png" />
+    <Resource Include="Images\align_right.png" />
+    <Resource Include="Images\align_sameheight.png" />
+    <Resource Include="Images\align_samewidth.png" />
+    <Resource Include="Images\align_top.png" />
+    <Resource Include="Images\ArrowLEFT.png" />
+    <Resource Include="Images\ArrowRIGHT.png" />
+    <Resource Include="Images\back.png" />
+    <Resource Include="Images\Bag.png" />
+    <Resource Include="Images\Book.png" />
+    <Resource Include="Images\book_old.png" />
+    <Resource Include="Images\browser.png" />
+    <Resource Include="Images\ChineseMD.png" />
+    <Resource Include="Images\circle.png" />
+    <Resource Include="Images\Circle_B.png" />
+    <Resource Include="Images\Circle_green.png" />
+    <Resource Include="Images\cirle.png" />
+    <Resource Include="Images\Clear.png" />
+    <Resource Include="Images\closed-16.png" />
+    <Resource Include="Images\closed-24.png" />
+    <Resource Include="Images\Compare.png" />
+    <Resource Include="Images\config.png" />
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\Cure.png" />
+    <Resource Include="Images\Cure2.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\db_query.png" />
+    <Resource Include="Images\db_query2.png" />
+    <Resource Include="Images\DownArrowIcon.png" />
+    <Resource Include="Images\edit.png" />
+    <Resource Include="Images\edit1.png" />
+    <Resource Include="Images\editAll.png" />
+    <Resource Include="Images\editError.png" />
+    <Resource Include="Images\editor.png" />
+    <Resource Include="Images\edit_clear.png" />
+    <Resource Include="Images\Execute.png" />
+    <Resource Include="Images\EXIT.png" />
+    <Resource Include="Images\export-16.png" />
+    <Resource Include="Images\export-24.png" />
+    <Resource Include="Images\faster.png" />
+    <Resource Include="Images\FBW_Blue.png" />
+    <Resource Include="Images\FFW_Blue.png" />
+    <Resource Include="Images\File.png" />
+    <Resource Include="Images\find.png" />
+    <Resource Include="Images\Fit.png" />
+    <Resource Include="Images\folder_green_open.png" />
+    <Resource Include="Images\go_bottom.png" />
+    <Resource Include="Images\go_down.png" />
+    <Resource Include="Images\go_top.png" />
+    <Resource Include="Images\go_up.png" />
+    <Resource Include="Images\Help.png" />
+    <Resource Include="Images\import-16.png" />
+    <Resource Include="Images\import-24.png" />
+    <Resource Include="Images\importBT-16.png" />
+    <Resource Include="Images\importJson-16.png" />
+    <Resource Include="Images\insert_object.png" />
+    <Resource Include="Images\insert_text.png" />
+    <Resource Include="Images\inspector.png" />
+    <Resource Include="Images\kill.png" />
+    <Resource Include="Images\leaf.png" />
+    <Resource Include="Images\Leaf_B.png" />
+    <Resource Include="Images\leaf_green.png" />
+    <Resource Include="Images\leftArrow.png" />
+    <Resource Include="Images\LeftArrowIcon.png" />
+    <Resource Include="Images\Library.png" />
+    <Resource Include="Images\link.png" />
+    <Resource Include="Images\Link1.png" />
+    <Resource Include="Images\link2.png" />
+    <Resource Include="Images\list-16.png" />
+    <Resource Include="Images\list-24.png" />
+    <Resource Include="Images\load.png" />
+    <Resource Include="Images\Login.png" />
+    <Resource Include="Images\Logout.png" />
+    <Resource Include="Images\Logout0.png" />
+    <Resource Include="Images\Magnify.png" />
+    <Resource Include="Images\MotionDetector.png" />
+    <Resource Include="Images\MoveDown.png" />
+    <Resource Include="Images\MoveToBottom.png" />
+    <Resource Include="Images\MoveToTop.png" />
+    <Resource Include="Images\MoveUp.png" />
+    <Resource Include="Images\New.png" />
+    <Resource Include="Images\Next.png" />
+    <Resource Include="Images\Notepad.png" />
+    <Resource Include="Images\Notes-48.png" />
+    <Resource Include="Images\object.png" />
+    <Resource Include="Images\OL-128.png" />
+    <Resource Include="Images\OL-32.png" />
+    <Resource Include="Images\OL-48.png" />
+    <Resource Include="Images\OL-64.png" />
+    <Resource Include="Images\OL-72.png" />
+    <Resource Include="Images\OL-96.png" />
+    <Resource Include="Images\open.png" />
+    <Resource Include="Images\Password.png" />
+    <Resource Include="Images\paste.png" />
+    <Resource Include="Images\Patient.png" />
+    <Resource Include="Images\PatientX.png" />
+    <Resource Include="Images\pause.png" />
+    <Resource Include="Images\Pause_Blue.png" />
+    <Resource Include="Images\picture.png" />
+    <Resource Include="Images\picture1.png" />
+    <Resource Include="Images\play.png" />
+    <Resource Include="Images\Play_Blue.png" />
+    <Resource Include="Images\Prev.png" />
+    <Resource Include="Images\previous.png" />
+    <Resource Include="Images\Process.png" />
+    <Resource Include="Images\ProcessX1.png" />
+    <Resource Include="Images\ProcessX2.png" />
+    <Resource Include="Images\ProcessX3.png" />
+    <Resource Include="Images\ProcessX4.png" />
+    <Resource Include="Images\ProcessX5.png" />
+    <Resource Include="Images\Process_48.png" />
+    <Resource Include="Images\redo.png" />
+    <Resource Include="Images\replace.png" />
+    <Resource Include="Images\replace2.png" />
+    <Resource Include="Images\replace3.png" />
+    <Resource Include="Images\replace4.png" />
+    <Resource Include="Images\replace5.png" />
+    <Resource Include="Images\restart.png" />
+    <Resource Include="Images\RightArrowIcon.png" />
+    <Resource Include="Images\Run.png" />
+    <Resource Include="Images\run2.png" />
+    <Resource Include="Images\run3.png" />
+    <Resource Include="Images\save.png" />
+    <Resource Include="Images\SaveAs.png" />
+    <Resource Include="Images\Search.png" />
+    <Resource Include="Images\Search_old.png" />
+    <Resource Include="Images\Setting.png" />
+    <Resource Include="Images\Shutdown.png" />
+    <Resource Include="Images\slower.png" />
+    <Resource Include="Images\star.png" />
+    <Resource Include="Images\Star_B.png" />
+    <Resource Include="Images\star_green.png" />
+    <Resource Include="Images\stop.png" />
+    <Resource Include="Images\Stop_Blue.png" />
+    <Resource Include="Images\Switch.png" />
+    <Resource Include="Images\System.png" />
+    <Resource Include="Images\TiChi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\TiChi_B.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Tools.png" />
+    <Resource Include="Images\undo.png" />
+    <Resource Include="Images\UpArrowIcon.png" />
+    <Resource Include="Images\update.png" />
+    <Resource Include="Images\User.png" />
+    <Resource Include="Images\video.png" />
+    <Resource Include="Images\video1.png" />
+    <Resource Include="Images\Volume_Blue.png" />
+    <Resource Include="Images\VPlay.png" />
+    <Resource Include="Images\VPlay_Blue.png" />
+    <Resource Include="Images\Windows.png" />
+    <Resource Include="Images\ZoomIn.png" />
+    <Resource Include="Images\ZoomOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\L5910389-00000000A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\First-48.png" />
+    <Resource Include="Images\Last-48.png" />
+    <Resource Include="Images\Next-48.png" />
+    <Resource Include="Images\Previous-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\First-96.png" />
+    <Resource Include="Images\Last-96.png" />
+    <Resource Include="Images\Next-96.png" />
+    <Resource Include="Images\Previous-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UILibraryWPF\UILibraryWPF.csproj">
+      <Project>{b5937c7f-1c27-405b-b860-f65223d98fef}</Project>
+      <Name>UILibraryWPF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\datagrid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\edit-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Layout-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\zoom_in-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\zoom_out-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Run-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\han_cold.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Expand.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Collapse.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PdfSharp.SharpZipLib\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Report-24.48.png" />
+    <Resource Include="Images\Report-24.72.png" />
+    <Resource Include="Images\Reports.48.png" />
+    <Resource Include="Images\Reports.72.png" />
+    <Resource Include="Images\reportStat.48.png" />
+    <Resource Include="Images\reportStat.72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\align_evenly_horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OExpert.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OL-32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ImagesX\TiChi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ImagesX\TiChi_B.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties data_4han_3cold_1json__JsonSchema="r50" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

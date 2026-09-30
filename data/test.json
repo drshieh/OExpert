@@ -1,0 +1,285 @@
+{
+  "Name": "..\\..\\data\\test.json",
+  "aRuleList": [
+    {
+      "ID": 1,
+      "Name": "Rule 1",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Fever",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "Cough",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        }
+      ],
+      "Conclusion": "Respiratory Infection",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 10.0,
+      "Y": 250.0,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 2,
+      "Name": "Rule 2",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Respiratory Infection",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "Fatigue",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        }
+      ],
+      "Conclusion": "Flu",
+      "Probability": 0.7,
+      "Value": -1,
+      "X": 100.0,
+      "Y": 250.0,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 3,
+      "Name": "Rule 3",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Cough",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "Fatigue",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        }
+      ],
+      "Conclusion": "Cold",
+      "Probability": 0.6,
+      "Value": -1,
+      "X": 190.0,
+      "Y": 250.0,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 4,
+      "Name": "Rule 4",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Fever",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "Rash",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        }
+      ],
+      "Conclusion": "Chickenpox",
+      "Probability": 0.65,
+      "Value": -1,
+      "X": 280.0,
+      "Y": 250.0,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 5,
+      "Name": "Rule 5",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Fever",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "Vomiting",
+          "WantValue": "true",
+          "Options": [
+            "",
+            "true",
+            "false"
+          ]
+        }
+      ],
+      "Conclusion": "Food Poisoning",
+      "Probability": 0.75,
+      "Value": -1,
+      "X": 370.0,
+      "Y": 250.0,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 6,
+      "Name": "Rule 6",
+      "Conditions": [],
+      "Conclusion": "Unknown",
+      "Probability": 0.0,
+      "Value": -1,
+      "X": 460.0,
+      "Y": 250.0,
+      "Width": 80.0,
+      "Height": 40.0
+    }
+  ],
+  "aFactList": [
+    {
+      "fact": "Fever",
+      "ruleList": null,
+      "X": 10.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "Cough",
+      "ruleList": null,
+      "X": 100.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "Fatigue",
+      "ruleList": null,
+      "X": 190.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "Rash",
+      "ruleList": null,
+      "X": 475.0,
+      "Y": 92.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": ""
+    },
+    {
+      "fact": "Vomiting",
+      "ruleList": null,
+      "X": 565.0,
+      "Y": 92.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": ""
+    }
+  ],
+  "aConclusionList": [
+    {
+      "conclusion": "Respiratory Infection",
+      "ruleList": null,
+      "X": 10.0,
+      "Y": 450.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "Flu",
+      "ruleList": null,
+      "X": 100.0,
+      "Y": 450.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "Cold",
+      "ruleList": null,
+      "X": 190.0,
+      "Y": 450.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "Chickenpox",
+      "ruleList": null,
+      "X": 280.0,
+      "Y": 450.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "Food Poisoning",
+      "ruleList": null,
+      "X": 370.0,
+      "Y": 450.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "Unknown",
+      "ruleList": null,
+      "X": 460.0,
+      "Y": 450.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    }
+  ]
+}

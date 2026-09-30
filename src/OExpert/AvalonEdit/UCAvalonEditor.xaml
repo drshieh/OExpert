@@ -1,0 +1,85 @@
+<UserControl x:Class="OExpert.UCAvalonEditor"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" 
+	d:DesignHeight="400" d:DesignWidth="1000">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            <ToolBar.Resources>
+                <Style TargetType="{x:Type Image}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType={x:Type ButtonBase}, AncestorLevel=1}, Path=IsEnabled}" Value="False">
+                            <Setter Property="Opacity" Value="0.30" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ToolBar.Resources>
+            <!--
+            <Button Click="openFileClick">
+                <Image Source="/BPObjLogicWPF;component/Images/folder_green_open.png" Height="16" ToolTip="Open File"/>
+            </Button>
+            <Button Click="saveFileClick">
+                <Image Source="/BPObjLogicWPF;component/Images/Save.png" Height="16" ToolTip="Save File"/>
+            </Button>
+            <Separator/>
+            -->
+            <Button Command="Cut">
+                <Image Source="/OExpert;component/Images/Cut.png" Height="16" ToolTip="Cut"/>
+            </Button>
+            <Button Command="Copy">
+                <Image Source="/OExpert;component/Images/Copy.png" Height="16" ToolTip="Copy"/>
+            </Button>
+            <Button Command="Paste">
+                <Image Source="/OExpert;component/Images/paste.png" Height="16" ToolTip="Paste"/>
+            </Button>
+            <!--
+            <Button Command="Delete">
+                <Image Source="/BPObjLogicWPF;component/Images/Cut.png" Height="16" ToolTip="Cut"/>
+            </Button>
+            -->
+            <Separator/>
+            <Button Command="Undo">
+                <Image Source="/OExpert;component/Images/Undo.png" Height="16" ToolTip="Undo"/>
+            </Button>
+            <Button Command="Redo">
+                <Image Source="/OExpert;component/Images/Redo.png" Height="16" ToolTip="Redo"/>
+            </Button>
+            <Separator/>
+            <CheckBox IsChecked="{Binding ElementName=textEditor,Path=WordWrap}">
+                <Image Source="/OExpert;component/Images2/arrow-return-left.png" Height="16" ToolTip="Word Wrap"/>
+            </CheckBox>
+            <CheckBox IsChecked="{Binding ElementName=textEditor,Path=ShowLineNumbers}" ToolTip="Show Line Numbers">
+                <TextBlock Width="16" TextAlignment="Center">#</TextBlock>
+            </CheckBox>
+            <CheckBox IsChecked="{Binding ElementName=textEditor,Path=Options.ShowEndOfLine}" ToolTip="Show End Of Line">
+                <TextBlock Width="16" TextAlignment="Center">¶</TextBlock>
+            </CheckBox>
+            <ComboBox Name="highlightingComboBox"
+				SelectedItem="{Binding SyntaxHighlighting, ElementName=textEditor}"
+				ItemsSource="{Binding Source={x:Static avalonEdit:HighlightingManager.Instance}, Path=HighlightingDefinitions}"
+				SelectionChanged="HighlightingComboBox_SelectionChanged"/>
+            <TextBox Name="tbFind" Width="300" KeyUp="TextBox_KeyUp"/>
+            <Button Name="btnFind" Click="Button_Click">
+                <Image Source="/OExpert;component/Images2/Search.png" Height="16" ToolTip="Find"/>
+            </Button>
+            <Label Margin="22,2,2,2" HorizontalAlignment="Left" VerticalAlignment="Top">Go to #:</Label>
+            <TextBox Name="tbGoToLine" Width="80" KeyUp="TextBox_KeyUp"/>
+            <Button Name="btnGo" Click="Button_Click">
+                <Image Source="/OExpert;component/Images2/ios7-play.png" Height="16" ToolTip="Jump to line"/>
+            </Button>
+        </ToolBar>
+        <Grid>
+            <avalonEdit:TextEditor
+				Name="textEditor"
+				FontFamily="Consolas"
+				FontSize="10pt"
+                ShowLineNumbers="True"
+				SyntaxHighlighting="C#"
+			>
+            </avalonEdit:TextEditor>
+        </Grid>
+    </DockPanel>
+</UserControl>

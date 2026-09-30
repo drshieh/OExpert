@@ -1,0 +1,146 @@
+<UserControl  x:Class="OExpert.UCResult"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:OExpert"
+        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        MinHeight="500" MinWidth="1000" Loaded="UCResult_Loaded">
+    <UserControl.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FF000000"/>
+            <GradientStop Color="#FFD1BFBF" Offset="1"/>
+        </RadialGradientBrush>
+    </UserControl.Background>
+    <Grid x:Name="BodyPart" Background="#FF99C99E"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="1,1,1,1">
+        <Grid  x:Name="panelX" MinWidth="60" MinHeight="60" Margin="0,0,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#FFB8C5DB">
+            <Grid x:Name="splitContainer1" Background="#FF99C99E" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,42,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*" MinWidth="20"/>
+                    <ColumnDefinition Width="2"/>
+                    <ColumnDefinition Width="85*" MinWidth="120"/>
+                </Grid.ColumnDefinitions>
+                <GridSplitter Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="2" Margin="0,0,0,0" Background="AliceBlue"/>
+                <Grid Grid.Column="0" HorizontalAlignment="Stretch" Margin="1,1,1,1" VerticalAlignment="Stretch" Width="Auto"  Background="#FFEAE2E2">
+                    <ListBox  x:Name="lbResult" MinWidth="99" MinHeight="255" Margin="0,0,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" BorderBrush="#FF5ACE22" FontFamily="Arial" FontSize="14" FontWeight="Normal" Background="#FFF7D9D9" SelectionChanged="lbResult_SelectionChanged">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,2">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Image Source="/Images/Bag.png" Height="24"/>
+                                        <TextBlock Text="{Binding date}" />
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+                <Grid Grid.Column="2" MinHeight="10" HorizontalAlignment="Stretch" Margin="1,1,1,1" VerticalAlignment="Stretch" Width="Auto"  Background="#FFEAE2E2">
+                    <TabControl Margin="0,0,0,0">
+                        <TabItem Header="Result">
+                            <Grid Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="4"/>
+                                    <ColumnDefinition Width="75*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,2,2,2">Summary</Label>
+                                    <ScrollViewer  Margin="4,32,2,2" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                                        <TextBlock x:Name="tbSummary" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="2,2,2,2">
+                                        </TextBlock>
+                                    </ScrollViewer>
+                                </Grid>
+                                <GridSplitter Grid.Column="1" Width="2" VerticalAlignment="Stretch" HorizontalAlignment="Center" Background="Pink"/>
+                                <Grid Grid.Column="2" Margin="2,2,2,2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="107*"/>
+                                        <ColumnDefinition Width="10*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30*"/>
+                                        <RowDefinition Height="4"/>
+                                        <RowDefinition Height="35*"/>
+                                        <RowDefinition Height="4"/>
+                                        <RowDefinition Height="25*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                                        <DataGrid Margin="0,0,0,0" Name="dgFact" AutoGenerateColumns="False"
+                      HorizontalGridLinesBrush="#FFC1AEAE" VerticalGridLinesBrush="#FFC1AEAE" CanUserAddRows="False">
+                                            <DataGrid.Columns>
+                                                <DataGridTextColumn Header="Level" Width="40" Binding="{Binding Level}" IsReadOnly="True"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="Fact" Width="80*" Binding="{Binding fact}" IsReadOnly="True"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="Value" Width="20*" Binding="{Binding Value}" IsReadOnly="True"></DataGridTextColumn>
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                    </Grid>
+                                    <GridSplitter Grid.Row="1" Height="2" VerticalAlignment="Center" HorizontalAlignment="Stretch" Background="Pink" Grid.ColumnSpan="2" Margin="0,1"/>
+                                    <Grid Grid.Row="2" Grid.ColumnSpan="2">
+                                        <DataGrid Margin="0,0,0,0" Name="dgRule" AutoGenerateColumns="False" IsReadOnly="True"
+                                                      HorizontalGridLinesBrush="#FFF3E6E6" VerticalGridLinesBrush="#FFF3E6E6">
+                                            <DataGrid.Columns>
+                                                <DataGridTextColumn Header="Rule ID" Width="50" Binding="{Binding ID}"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="Name" Width="60" Binding="{Binding Name}"></DataGridTextColumn>
+                                                <DataGridTemplateColumn Header="Conditions (or, oper, cond, want, input, eval)" Width="40*">
+                                                    <DataGridTemplateColumn.CellTemplate>
+                                                        <DataTemplate>
+                                                            <DataGrid AutoGenerateColumns="False" CanUserAddRows="False" HeadersVisibility="None" ItemsSource="{Binding Conditions}" BorderThickness="0" HorizontalGridLinesBrush="#FFC1AEAE" VerticalGridLinesBrush="#FFC1AEAE">
+                                                                <DataGrid.Columns>
+                                                                    <DataGridTextColumn Width="40" IsReadOnly="True" Binding="{Binding Or}"></DataGridTextColumn>
+                                                                    <DataGridTextColumn Width="50" IsReadOnly="True" Binding="{Binding Operator}"></DataGridTextColumn>
+                                                                    <DataGridTextColumn Width="60*" IsReadOnly="True" Binding="{Binding Condition}"></DataGridTextColumn>
+                                                                    <DataGridTextColumn Width="20*" IsReadOnly="True" Binding="{Binding WantValue}"></DataGridTextColumn>
+                                                                    <DataGridTextColumn Width="10*" IsReadOnly="True" Binding="{Binding InputValue}"></DataGridTextColumn>
+                                                                    <DataGridTextColumn Width="30" IsReadOnly="True" Binding="{Binding EvaluatedValue}"></DataGridTextColumn>
+                                                                </DataGrid.Columns>
+                                                            </DataGrid>
+                                                        </DataTemplate>
+                                                    </DataGridTemplateColumn.CellTemplate>
+                                                </DataGridTemplateColumn>
+
+                                                <DataGridTextColumn Header="Conclusion" IsReadOnly="True" Width="30*" Binding="{Binding Conclusion}"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="Probability" IsReadOnly="True" Width="70" Binding="{Binding Probability}"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="X" Width="30" IsReadOnly="True" Binding="{Binding X}"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="Y" Width="30" IsReadOnly="True" Binding="{Binding Y}"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="Value" Width="10*" IsReadOnly="True" Binding="{Binding Value}"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="CalcP" Width="40" IsReadOnly="True" Binding="{Binding CalcProbability}"></DataGridTextColumn>
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                    </Grid>
+                                    <GridSplitter Grid.Row="3" Height="2" VerticalAlignment="Center" HorizontalAlignment="Stretch" Background="Pink" Grid.ColumnSpan="2" Margin="0,1"/>
+                                    <Grid Grid.Row="4" Grid.ColumnSpan="2">
+                                        <DataGrid Margin="0,0,0,0" Name="dgConclusion" AutoGenerateColumns="False" CanUserAddRows="False"
+                      HorizontalGridLinesBrush="#FFC1AEAE" VerticalGridLinesBrush="#FFC1AEAE">
+                                            <DataGrid.Columns>
+                                                <DataGridTextColumn Header="Conclusion" Width="80*" Binding="{Binding conclusion}" IsReadOnly="True"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="Value" Width="20*" Binding="{Binding Value}" IsReadOnly="True"></DataGridTextColumn>
+                                                <DataGridTextColumn Header="CalcP" Width="10*" Binding="{Binding CalcProbability}" IsReadOnly="True"></DataGridTextColumn>
+                                            </DataGrid.Columns>
+                                        </DataGrid>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Trace">
+                            <local:UCAvalonEditor x:Name="ucTraceAvalonEditor" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </Grid>
+            <Label Margin="2,6,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">Find:</Label>
+            <TextBox  x:Name="tbSearch" Width="194" Height="25" Margin="40,8,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" FontFamily="Arial" FontSize="14" FontWeight="Normal" KeyUp="tbSearch_KeyUp"/>
+            <Button  x:Name="btnFind" Width="25" Height="25" Margin="236,8,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Blue" Click="Button_Click" ToolTip="Find next">
+                <Image  Stretch="Fill" Source="/Images/Search.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Image>
+            </Button>
+            <Button  x:Name="btnCut" Width="25" Height="25" Margin="286,8,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Blue" Click="Button_Click" ToolTip="Remove selected">
+                <Image  Stretch="Fill" Source="/Images/Cut.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Image>
+            </Button>
+            <Button  x:Name="btnSave" Width="25" Height="25" Margin="312,8,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Blue" Click="Button_Click" ToolTip="Save to result file">
+                <Image  Stretch="Fill" Source="/Images/Save.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Image>
+            </Button>
+            <Button  x:Name="btnSetInDisplay" Width="25" Height="25" Margin="352,8,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Blue" Click="Button_Click" ToolTip="Apply results to visual display">
+                <Image  Stretch="Fill" Source="/Images2/forward.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"></Image>
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>

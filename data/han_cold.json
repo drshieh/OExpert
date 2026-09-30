@@ -1,0 +1,4690 @@
+{
+  "Name": "../../data/han_cold.json",
+  "aRuleList": [
+    {
+      "ID": 1,
+      "Name": "mdD_R01",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R1.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_25",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R01",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3674.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 2,
+      "Name": "mdD_R02",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R2.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_25",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R02",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 3,
+      "Name": "mdD_R03",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R3.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_26",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R03",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3794.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 4,
+      "Name": "mdD_R04",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R4.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_26",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R04",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3854.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 5,
+      "Name": "mdD_R05",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R5.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_27",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R05",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3914.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 6,
+      "Name": "mdD_R06",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R6.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_27",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R06",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3974.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 7,
+      "Name": "mdD_R07",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R7.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_23",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R07",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 8,
+      "Name": "mdD_R08",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R8.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_23",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R08",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3554.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 9,
+      "Name": "mdD_R09",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R9.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_23",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R09",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3614.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 10,
+      "Name": "mdD_R10",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R10.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_22",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R10",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3314.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 11,
+      "Name": "mdD_R11",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R11.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_22",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R11",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 12,
+      "Name": "mdD_R12",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R12.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_22",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R12",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3434.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 13,
+      "Name": "mdD_R13",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R13.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_20",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R13",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3254.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 14,
+      "Name": "mdD_R14",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R14.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_20",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R14",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3314.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 15,
+      "Name": "mdD_R15",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R15.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_28",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R15",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3014.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 16,
+      "Name": "mdD_R16",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R16.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_21",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R16",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 1010.0,
+      "Y": 3074.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 17,
+      "Name": "mdD_R17",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R17.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_21",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R17",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 1010.0,
+      "Y": 3134.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 18,
+      "Name": "mdD_R18",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R18.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_21",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R18",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 1010.0,
+      "Y": 3194.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 19,
+      "Name": "mdD_R19",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R19.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_21",
+          "WantValue": "4",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R19",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 1010.0,
+      "Y": 3254.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 20,
+      "Name": "mdD_R20",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R20.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_18",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R20",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 21,
+      "Name": "mdD_R21",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R21.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_18",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R21",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2774.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 22,
+      "Name": "mdD_R22",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R22.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_19",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R22",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2834.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 23,
+      "Name": "mdD_R23",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R23.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_19",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R23",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2894.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 24,
+      "Name": "mdD_R24",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R24.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_19",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R24",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2954.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 25,
+      "Name": "mdD_R25",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R25.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_15",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R25",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2594.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 26,
+      "Name": "mdD_R26",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R26.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_15",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R26",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2654.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 27,
+      "Name": "mdD_R27",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R27.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_15",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R27",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 28,
+      "Name": "mdD_R28",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R28.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_16",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R28",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 2474.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 29,
+      "Name": "mdD_R29",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R29.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_16",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R29",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 2534.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 30,
+      "Name": "mdD_R30",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R30.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_16",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R30",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 2594.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 31,
+      "Name": "mdD_R31",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R31.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_23",
+          "WantValue": "No",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R31",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2414.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 32,
+      "Name": "mdD_R32",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R32.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R32",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 10.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 33,
+      "Name": "mdD_R33",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R33.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R33",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 110.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 34,
+      "Name": "mdD_R34",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R34.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_13",
+          "WantValue": "1",
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_14",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R34",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1994.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 35,
+      "Name": "mdD_R35",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R35.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_13",
+          "WantValue": "2",
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_14",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R35",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2054.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 36,
+      "Name": "mdD_R36",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R36.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_18",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R36",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1754.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 37,
+      "Name": "mdD_R37",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R37.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_18",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R37",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1814.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 38,
+      "Name": "mdD_R38",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R38.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_17",
+          "WantValue": "No",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R38",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 39,
+      "Name": "mdD_R39",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R39.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_10",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R39",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1814.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 40,
+      "Name": "mdD_R40",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R40.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_10",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R40",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1874.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 41,
+      "Name": "mdD_R41",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R41.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_10",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R41",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1934.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 42,
+      "Name": "mdD_R42",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R42.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_07",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R42",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1334.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 43,
+      "Name": "mdD_R43",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R43.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_07",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R43",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1394.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 44,
+      "Name": "mdD_R44",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R44.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R44",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 210.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 45,
+      "Name": "mdD_R45",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R45.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_05",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R45",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1214.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 46,
+      "Name": "mdD_R46",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R46.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R46",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 310.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 47,
+      "Name": "mdD_R47",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R47.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R47",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 410.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 48,
+      "Name": "mdD_R48",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R48.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R48",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 510.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 49,
+      "Name": "mdD_R49",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R49.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_08",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R49",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1634.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 50,
+      "Name": "mdD_R50",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R50.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_04",
+          "WantValue": "2",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_08",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R50",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1094.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 51,
+      "Name": "mdD_R51",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R51.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_08",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R51",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 52,
+      "Name": "mdD_R52",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R52.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_14",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R52",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1454.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 53,
+      "Name": "mdD_R53",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R53.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R53",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 610.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 54,
+      "Name": "mdD_R54",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R54.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R54",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 710.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 55,
+      "Name": "mdD_R55",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R55.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_05",
+          "WantValue": "1",
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_06",
+          "WantValue": "1",
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_09",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R55",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1274.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 56,
+      "Name": "mdD_R56",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R56.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_06",
+          "WantValue": "2",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_09",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R56",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1334.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 57,
+      "Name": "mdD_R57",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R57.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_07",
+          "WantValue": "No",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R57",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 974.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 58,
+      "Name": "mdD_R58",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R58.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_08",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R58",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1034.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 59,
+      "Name": "mdD_R59",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R59.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_04",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R59",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1154.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 60,
+      "Name": "mdD_R60",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R60.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R60",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 810.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 61,
+      "Name": "mdD_R61",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R61.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_02",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R61",
+      "Probability": 0.8,
+      "Value": 1,
+      "X": 410.0,
+      "Y": 854.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 62,
+      "Name": "mdD_R62",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R62.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_02",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R62",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 410.0,
+      "Y": 914.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 63,
+      "Name": "mdD_R63",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R63.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_00",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R63",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 614.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 64,
+      "Name": "mdD_R64",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R64.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_03",
+          "WantValue": "No",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Or":  "Or",
+          "Operator": "Is",
+          "Condition": "mdQCM_00",
+          "WantValue": "2",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R64",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 65,
+      "Name": "mdD_R65",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R65.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_00",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R65",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 674.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 66,
+      "Name": "mdD_R66",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R66.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_00",
+          "WantValue": "4",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R66",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 67,
+      "Name": "mdD_R67",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R67.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "5",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R67",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 910.0,
+      "Y": 374.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 68,
+      "Name": "mdD_R69",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R69.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_04",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R69",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 554.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 69,
+      "Name": "mdD_R70",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R70.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_01",
+          "WantValue": "No",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdD_R70",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 70,
+      "Name": "mdD_R71",
+      "Message": "../../Data/SAMPLE/COLD/COLD_R71.TXT",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_01",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdD_R71",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 794.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 71,
+      "Name": "mdQC_00",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Feel chills (Stuffy nose, running nose, sneezing)?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_00",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 10.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 72,
+      "Name": "mdQC_01",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Feel chills?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_00",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_01",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 110.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 73,
+      "Name": "mdQC_02",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any feverish, sweating, headache, coughing?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_01",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_02",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 210.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 74,
+      "Name": "mdQC_03",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any fever?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_02",
+          "WantValue": "No",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_03",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 494.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 75,
+      "Name": "mdQC_04",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Do you catch cold/flu easily?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_03",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_04",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 554.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 76,
+      "Name": "mdQC_05",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Feel severe chills?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_00",
+          "WantValue": "No",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQC_05",
+      "Probability": 0.8,
+      "Value": 1,
+      "X": 110.0,
+      "Y": 794.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 77,
+      "Name": "mdQC_06",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any fever?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_05",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_06",
+      "Probability": 0.8,
+      "Value": 1,
+      "X": 210.0,
+      "Y": 794.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 78,
+      "Name": "mdQC_07",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any dizziness, emotional, feverish, coughing?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_03",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_07",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 974.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 79,
+      "Name": "mdQC_08",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any sweating, dizziness?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_07",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_08",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1034.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 80,
+      "Name": "mdQC_09",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any sore throat?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_03",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_09",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 1154.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 81,
+      "Name": "mdQC_10",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any thirst, headache?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_09",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_10",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1154.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 82,
+      "Name": "mdQC_11",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any chest congestion?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_10",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_11",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1154.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 83,
+      "Name": "mdQC_12",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any heat exhaustion, thirst, dark red urine, yellowish tongue fur?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_09",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_12",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1394.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 84,
+      "Name": "mdQC_13",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any headache, hacking cough, thirst, red tongue?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_12",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_13",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1394.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 85,
+      "Name": "mdQC_14",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any loss of appetite, chest congestion?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_13",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_14",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1454.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 86,
+      "Name": "mdQC_15",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any fever?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_05",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_15",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 210.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 87,
+      "Name": "mdQC_16",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any sweatless, stiff neck, head and body aches?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_15",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_16",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 88,
+      "Name": "mdQC_17",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any itchy throat, coughing?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_16",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_17",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 1694.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 89,
+      "Name": "mdQC_18",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any Flatulence, vomitting?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_17",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_18",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1754.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 90,
+      "Name": "mdQC_19",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any body ache, headache, Dysphonia?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_12",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_19",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 1994.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 91,
+      "Name": "mdQC_20",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any headache, body ache, sore body?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_12",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_20",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 2174.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 92,
+      "Name": "mdQC_21",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any Dysphonia, cold arms and legs?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_20",
+          "WantValue": "Yes",
+          "Options": []
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_19",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_21",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1994.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 93,
+      "Name": "mdQC_22",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any itch throat, coughing, and mucus?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_20",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_22",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2414.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 94,
+      "Name": "mdQC_23",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any Dysphonia, cold arms and legs, pale tongue, weak pulse?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_22",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_23",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2414.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 95,
+      "Name": "mdQC_24",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Fell exhausted, sore body, or headache?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_17",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_24",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 96,
+      "Name": "mdQC_25",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any headache, body Ache, sore body, or stiff neck?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_17",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_25",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 510.0,
+      "Y": 2954.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 97,
+      "Name": "mdQC_26",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any loss of appetite, vomitting, diarrhea, constipation?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_25",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_26",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2954.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 98,
+      "Name": "mdQC_27",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any chest congestion, exhaustion, headache?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_26",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_27",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 3014.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 99,
+      "Name": "mdQC_28",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any chest pain?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_27",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_28",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3014.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 100,
+      "Name": "mdQC_29",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "Any itchy throat, cough, mucus?",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_25",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQC_29",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 3434.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 101,
+      "Name": "mdQCM_00",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which symptom is more obvious?",
+          "WantValue": "",
+          "Options": [
+            "Fever, Sweating, Headache",
+            "Throat-itchy, Coughing",
+            "Hacking",
+            "Fever"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_02",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdQCM_00",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 554.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 102,
+      "Name": "mdQCM_01",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Color of the snivel?",
+          "WantValue": "",
+          "Options": [
+            "Clear",
+            "Yellowish and thick"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_01",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_01",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 210.0,
+      "Y": 734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 103,
+      "Name": "mdQCM_02",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Sweating, Snivel color, Headache?",
+          "WantValue": "",
+          "Options": [
+            "Clear snivel, No sweat, Headache",
+            "Yellowish snivel, Sweat, Headache"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_06",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_02",
+      "Probability": 0.8,
+      "Value": 1,
+      "X": 310.0,
+      "Y": 854.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 104,
+      "Name": "mdQCM_03",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Is the fever serious?",
+          "WantValue": "",
+          "Options": [
+            "Not Serious",
+            "Serious"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_06",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_03",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 310.0,
+      "Y": 914.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 105,
+      "Name": "mdQCM_04",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Feel chill or fever?",
+          "WantValue": "",
+          "Options": [
+            "Chill",
+            "Fever"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_08",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_04",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1094.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 106,
+      "Name": "mdQCM_05",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Do you have a lot of mucus? Is it easy to get out?",
+          "WantValue": "",
+          "Options": [
+            "Lot of mucus, but easy to get out",
+            "Less mucus, but very thick and hard to get out"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_11",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_05",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1214.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 107,
+      "Name": "mdQCM_06",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Feel thirst, or emotional, and check your tongue color",
+          "WantValue": "",
+          "Options": [
+            "Thirst, Tongue red",
+            "Thirst, Tongue yellow"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_11",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_06",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1274.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 108,
+      "Name": "mdQCM_07",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Thirst and headache which is more obvious?  And How is your tongue color?",
+          "WantValue": "",
+          "Options": [
+            "Red tongue, Thirst",
+            "Yellow tongue, Headache"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_10",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_07",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 1334.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 109,
+      "Name": "mdQCM_08",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which symptom is most obvious?",
+          "WantValue": "",
+          "Options": [
+            "Headache",
+            "Coughing",
+            "Thirst and Feverish"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_13",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_08",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1634.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 110,
+      "Name": "mdQCM_09",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "How do you feel? Thirst?",
+          "WantValue": "",
+          "Options": [
+            "Dry thirst",
+            "Feel down and thirst"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_14",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_09",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 1514.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 111,
+      "Name": "mdQCM_10",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which symptom is most appropriate?",
+          "WantValue": "",
+          "Options": [
+            "No perspiration, Not thirst",
+            "Headache, stiff neck",
+            "Sore body"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_16",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_10",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 1814.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 112,
+      "Name": "mdQCM_11",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "How is the fever?",
+          "WantValue": "",
+          "Options": [
+            "Not Serious (below 100 F)",
+            "Serious (above 100 F)"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_15",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_11",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 310.0,
+      "Y": 1934.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 113,
+      "Name": "mdQCM_12",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Any sweating?",
+          "WantValue": "",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_11",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_12",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 1934.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 114,
+      "Name": "mdQCM_13",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which symptom is more obvious?",
+          "WantValue": "",
+          "Options": [
+            "Headache and sore body",
+            "Cold body and whispering sound"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_19",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_13",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2054.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 115,
+      "Name": "mdQCM_14",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which symptom is more obvious?",
+          "WantValue": "",
+          "Options": [
+            "Headache with body ache",
+            "Cold body and whispering sound"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_21",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_14",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 1994.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 116,
+      "Name": "mdQCM_15",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "How is the coughing and the mucus color?",
+          "WantValue": "",
+          "Options": [
+            "Little cough, White mucus",
+            "Gasping cough, Lot of white mucus",
+            "Coughing, Little yellowish mucus"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_22",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_15",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 2594.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 117,
+      "Name": "mdQCM_16",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which is more obvious?",
+          "WantValue": "",
+          "Options": [
+            "Headache",
+            "Body ache",
+            "Sore body"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_23",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_16",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 2474.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 118,
+      "Name": "mdQCM_17",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Any perspiration?",
+          "WantValue": "",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_11",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_17",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 410.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 119,
+      "Name": "mdQCM_18",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which is more obvious?",
+          "WantValue": "",
+          "Options": [
+            "Tired, exhausted",
+            "Headache, body ache"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_24",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_18",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2714.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 120,
+      "Name": "mdQCM_19",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Any hawking cough, anorexia, chest congestion?",
+          "WantValue": "",
+          "Options": [
+            "None",
+            "Hawking cough, white mucus",
+            "Anorexia, chest congestion"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_24",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_19",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 610.0,
+      "Y": 2774.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 121,
+      "Name": "mdQCM_20",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "How is the Tongue fur?",
+          "WantValue": "",
+          "Options": [
+            "Thin, white",
+            "Thick, white"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_27",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_20",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3254.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 122,
+      "Name": "mdQCM_21",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Any sore throat, coughing, yellowish mucus?",
+          "WantValue": "",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_28",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_21",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 910.0,
+      "Y": 3074.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 123,
+      "Name": "mdQCM_22",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which is more obvious?",
+          "WantValue": "",
+          "Options": [
+            "Anorexia",
+            "Vomitting",
+            "Flatulence, Constipation"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_26",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_22",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 3314.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 124,
+      "Name": "mdQCM_23",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Which is more obvious?",
+          "WantValue": "",
+          "Options": [
+            "Headache",
+            "Body ache",
+            "Stiff neck"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_29",
+          "WantValue": "Yes",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_23",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 3434.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 125,
+      "Name": "mdQCM_24",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Coughing and mucus",
+          "WantValue": "",
+          "Options": [
+            "Little cough, light mucus (white)",
+            "Cough, more mucus (white)",
+            "Little mucus (yellow)"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_29",
+          "WantValue": "No",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_24",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 710.0,
+      "Y": 3614.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 126,
+      "Name": "mdQCM_25",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Tongue color?",
+          "WantValue": "",
+          "Options": [
+            "Red",
+            "Red with yellow"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_24",
+          "WantValue": "1",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_25",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3674.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 127,
+      "Name": "mdQCM_26",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Tongue and pulse?",
+          "WantValue": "",
+          "Options": [
+            "Tongue red, tight pulse",
+            "Tongue red, pulse floating"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_24",
+          "WantValue": "2",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_26",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3734.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 128,
+      "Name": "mdQCM_27",
+      "Message": "",
+      "Conditions": [
+        {
+          "Operator": "Ask",
+          "Condition": "Feel thirst?",
+          "WantValue": "",
+          "Options": [
+            "Thirst",
+            "Not thirst"
+          ]
+        },
+        {
+          "Operator": "Is",
+          "Condition": "mdQCM_24",
+          "WantValue": "3",
+          "Options": []
+        }
+      ],
+      "Conclusion": "mdQCM_27",
+      "Probability": 0.8,
+      "Value": -1,
+      "X": 810.0,
+      "Y": 3854.6,
+      "Width": 80.0,
+      "Height": 40.0
+    },
+    {
+      "ID": 129,
+      "Name": "mdRS_00",
+      "Message": "Please refer to Other Refernce book",
+      "Conditions": [
+        {
+          "Operator": "Is",
+          "Condition": "mdQC_999",
+          "WantValue": "Yes",
+          "Options": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "Conclusion": "mdRS_00",
+      "Probability": 0.8,
+      "Value": 0,
+      "X": 10.0,
+      "Y": 434.6,
+      "Width": 80.0,
+      "Height": 40.0
+    }
+  ],
+  "aFactList": [
+    {
+      "fact": "mdQC_999",
+      "X": 10.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": "No"
+    },
+    {
+      "fact": "Feel chills (Stuffy nose, running nose, sneezing)?",
+      "X": 100.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": "No"
+    },
+    {
+      "fact": "Feel chills?",
+      "X": 190.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": "Yes"
+    },
+    {
+      "fact": "Any feverish, sweating, headache, coughing?",
+      "X": 280.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": ""
+    },
+    {
+      "fact": "Any fever?",
+      "X": 370.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": "Yes"
+    },
+    {
+      "fact": "Do you catch cold/flu easily?",
+      "X": 460.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": ""
+    },
+    {
+      "fact": "Feel severe chills?",
+      "X": 550.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": "Yes"
+    },
+    {
+      "fact": "Any dizziness, emotional, feverish, coughing?",
+      "X": 640.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": ""
+    },
+    {
+      "fact": "Any sweating, dizziness?",
+      "X": 730.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": ""
+    },
+    {
+      "fact": "Any sore throat?",
+      "X": 820.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": ""
+    },
+    {
+      "fact": "Any thirst, headache?",
+      "X": 910.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": ""
+    },
+    {
+      "fact": "Any chest congestion?",
+      "X": 1000.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 55.2,
+      "Value": ""
+    },
+    {
+      "fact": "Any heat exhaustion, thirst, dark red urine, yellowish tongue fur?",
+      "X": 1090.0,
+      "Y": 50.0,
+      "Width": 82.036666666666633,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any headache, hacking cough, thirst, red tongue?",
+      "X": 1180.0,
+      "Y": 50.0,
+      "Width": 80.720000000000027,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any loss of appetite, chest congestion?",
+      "X": 1270.0,
+      "Y": 50.0,
+      "Width": 80.0,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any sweatless, stiff neck, head and body aches?",
+      "X": 1360.0,
+      "Y": 50.0,
+      "Width": 80.490000000000009,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any itchy throat, coughing?",
+      "X": 1450.0,
+      "Y": 50.0,
+      "Width": 86.0333333333333,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any Flatulence, vomitting?",
+      "X": 1540.0,
+      "Y": 50.0,
+      "Width": 82.7066666666667,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any body ache, headache, Dysphonia?",
+      "X": 1630.0,
+      "Y": 50.0,
+      "Width": 82.7166666666667,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any headache, body ache, sore body?",
+      "X": 1720.0,
+      "Y": 50.0,
+      "Width": 85.383333333333439,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any Dysphonia, cold arms and legs?",
+      "X": 10.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any itch throat, coughing, and mucus?",
+      "X": 100.0,
+      "Y": 129.0,
+      "Width": 80.033333333333331,
+      "Height": 69.0,
+      "Value": ""
+    },
+    {
+      "fact": "Any Dysphonia, cold arms and legs, pale tongue, weak pulse?",
+      "X": 190.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Fell exhausted, sore body, or headache?",
+      "X": 280.0,
+      "Y": 129.0,
+      "Width": 81.376666666666665,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any headache, body Ache, sore body, or stiff neck?",
+      "X": 370.0,
+      "Y": 129.0,
+      "Width": 80.056666666666672,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any loss of appetite, vomitting, diarrhea, constipation?",
+      "X": 460.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any chest congestion, exhaustion, headache?",
+      "X": 550.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any chest pain?",
+      "X": 640.0,
+      "Y": 129.0,
+      "Width": 85.383333333333326,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any itchy throat, cough, mucus?",
+      "X": 730.0,
+      "Y": 129.0,
+      "Width": 86.0333333333333,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Which symptom is more obvious?",
+      "X": 820.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Color of the snivel?",
+      "X": 910.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Sweating, Snivel color, Headache?",
+      "X": 1000.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": "Yellowish snivel, Sweat, Headache"
+    },
+    {
+      "fact": "Is the fever serious?",
+      "X": 1090.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": "Serious"
+    },
+    {
+      "fact": "Feel chill or fever?",
+      "X": 1180.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Do you have a lot of mucus? Is it easy to get out?",
+      "X": 1270.0,
+      "Y": 129.0,
+      "Width": 84.029999999999973,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Feel thirst, or emotional, and check your tongue color",
+      "X": 1360.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Thirst and headache which is more obvious?  And How is your tongue color?",
+      "X": 1450.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Which symptom is most obvious?",
+      "X": 1540.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "How do you feel? Thirst?",
+      "X": 1630.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Which symptom is most appropriate?",
+      "X": 1720.0,
+      "Y": 129.0,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "How is the fever?",
+      "X": 10.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any sweating?",
+      "X": 100.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "How is the coughing and the mucus color?",
+      "X": 190.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Which is more obvious?",
+      "X": 280.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any perspiration?",
+      "X": 370.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any hawking cough, anorexia, chest congestion?",
+      "X": 460.0,
+      "Y": 221.8,
+      "Width": 81.376666666666665,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "How is the Tongue fur?",
+      "X": 550.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Any sore throat, coughing, yellowish mucus?",
+      "X": 640.0,
+      "Y": 221.8,
+      "Width": 84.703333333333376,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Coughing and mucus",
+      "X": 730.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Tongue color?",
+      "X": 820.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Tongue and pulse?",
+      "X": 910.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    },
+    {
+      "fact": "Feel thirst?",
+      "X": 1000.0,
+      "Y": 221.8,
+      "Width": 80.0,
+      "Height": 82.800000000000011,
+      "Value": ""
+    }
+  ],
+  "aConclusionList": [
+    {
+      "conclusion": "mdD_R01",
+      "X": 10.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R02",
+      "X": 100.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R03",
+      "X": 190.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R04",
+      "X": 280.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R05",
+      "X": 370.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R06",
+      "X": 460.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R07",
+      "X": 550.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R08",
+      "X": 640.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R09",
+      "X": 730.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R10",
+      "X": 820.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R11",
+      "X": 910.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R12",
+      "X": 1000.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R13",
+      "X": 1090.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R14",
+      "X": 1180.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R15",
+      "X": 1270.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R16",
+      "X": 1360.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R17",
+      "X": 1450.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R18",
+      "X": 1540.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R19",
+      "X": 1630.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R20",
+      "X": 1720.0,
+      "Y": 4114.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R21",
+      "X": 10.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R22",
+      "X": 100.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R23",
+      "X": 190.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R24",
+      "X": 280.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R25",
+      "X": 370.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R26",
+      "X": 460.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R27",
+      "X": 550.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R28",
+      "X": 640.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R29",
+      "X": 730.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R30",
+      "X": 820.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R31",
+      "X": 910.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R32",
+      "X": 1000.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R33",
+      "X": 1090.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R34",
+      "X": 1180.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R35",
+      "X": 1270.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R36",
+      "X": 1360.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R37",
+      "X": 1450.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R38",
+      "X": 1540.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R39",
+      "X": 1630.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R40",
+      "X": 1720.0,
+      "Y": 4164.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R41",
+      "X": 10.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R42",
+      "X": 100.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R43",
+      "X": 190.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R44",
+      "X": 280.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R45",
+      "X": 370.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R46",
+      "X": 460.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R47",
+      "X": 550.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R48",
+      "X": 640.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R49",
+      "X": 730.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R50",
+      "X": 820.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R51",
+      "X": 910.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R52",
+      "X": 1000.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R53",
+      "X": 1090.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R54",
+      "X": 1180.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R55",
+      "X": 1270.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R56",
+      "X": 1360.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R57",
+      "X": 1450.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R58",
+      "X": 1540.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R59",
+      "X": 1630.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R60",
+      "X": 1720.0,
+      "Y": 4214.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R61",
+      "X": 10.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 1
+    },
+    {
+      "conclusion": "mdD_R62",
+      "X": 100.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R63",
+      "X": 190.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R64",
+      "X": 280.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R65",
+      "X": 370.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R66",
+      "X": 460.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R67",
+      "X": 550.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdD_R69",
+      "X": 640.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R70",
+      "X": 730.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdD_R71",
+      "X": 820.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_00",
+      "X": 910.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdQC_01",
+      "X": 1000.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdQC_02",
+      "X": 1090.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_03",
+      "X": 1180.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_04",
+      "X": 1270.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_05",
+      "X": 1360.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 1
+    },
+    {
+      "conclusion": "mdQC_06",
+      "X": 1450.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 1
+    },
+    {
+      "conclusion": "mdQC_07",
+      "X": 1540.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_08",
+      "X": 1630.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_09",
+      "X": 1720.0,
+      "Y": 4264.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_10",
+      "X": 10.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_11",
+      "X": 100.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_12",
+      "X": 190.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_13",
+      "X": 280.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_14",
+      "X": 370.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_15",
+      "X": 460.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdQC_16",
+      "X": 550.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_17",
+      "X": 640.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_18",
+      "X": 730.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_19",
+      "X": 820.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_20",
+      "X": 910.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_21",
+      "X": 1000.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_22",
+      "X": 1090.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_23",
+      "X": 1180.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_24",
+      "X": 1270.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_25",
+      "X": 1360.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_26",
+      "X": 1450.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_27",
+      "X": 1540.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_28",
+      "X": 1630.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQC_29",
+      "X": 1720.0,
+      "Y": 4314.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_00",
+      "X": 10.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_01",
+      "X": 100.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_02",
+      "X": 190.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 1
+    },
+    {
+      "conclusion": "mdQCM_03",
+      "X": 280.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    },
+    {
+      "conclusion": "mdQCM_04",
+      "X": 370.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_05",
+      "X": 460.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_06",
+      "X": 550.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_07",
+      "X": 640.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_08",
+      "X": 730.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_09",
+      "X": 820.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_10",
+      "X": 910.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_11",
+      "X": 1000.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_12",
+      "X": 1090.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_13",
+      "X": 1180.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_14",
+      "X": 1270.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_15",
+      "X": 1360.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_16",
+      "X": 1450.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_17",
+      "X": 1540.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_18",
+      "X": 1630.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_19",
+      "X": 1720.0,
+      "Y": 4364.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_20",
+      "X": 10.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_21",
+      "X": 100.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_22",
+      "X": 190.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_23",
+      "X": 280.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_24",
+      "X": 370.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_25",
+      "X": 460.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_26",
+      "X": 550.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdQCM_27",
+      "X": 640.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": -1
+    },
+    {
+      "conclusion": "mdRS_00",
+      "X": 730.0,
+      "Y": 4414.6,
+      "Width": 80.0,
+      "Height": 40.0,
+      "Value": 0
+    }
+  ]
+}

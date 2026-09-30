@@ -1,0 +1,17 @@
+1. Chill:
+       Afraid of cold.  Can not be reliefedh with
+       clothing.
+
+2. Stiff Neck:
+       Very stiff feeling of the back of the neck.
+
+3. Floating Pulse:
+       Touch softly can feel the pulse, but dispears
+       if press hard.
+
+4. Deep Pulse:
+       Touch softly can not feel the pulse, only
+       press hard can feel it.
+
+5. Fever: Body temperature is higher than normal
+       (98 &suo&sunF)

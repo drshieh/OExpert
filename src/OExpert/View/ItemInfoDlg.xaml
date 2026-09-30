@@ -1,0 +1,27 @@
+﻿<Window x:Class="OExpert.ItemInfoDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OExpert"
+        mc:Ignorable="d"
+        Title="Rule Network Item Information" Height="500" Width="840" WindowStartupLocation="CenterOwner" Closing="Window_Closing">
+    <Grid>
+        <Label Margin="4,4,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Type:"/>
+        <TextBox x:Name="tbType" Margin="50,6,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Height="26" Width="180" Text=""/>
+
+        <Grid x:Name="gInfo2" Margin="2,38,4,2">
+            <local:UCRuleInfo x:Name="ucRuleInfo" Margin="0,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <local:UCFactInfo x:Name="ucFactInfo" Margin="0,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <local:UCConclusionInfo x:Name="ucConclusionInfo" Margin="0,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        </Grid>
+
+        <Button x:Name="btnSave" HorizontalAlignment="Right" Margin="0,4,34,4" VerticalAlignment="Top" Click="Button_Click">
+            <Image Source="/Images/Save.png" Width="24" Height="24"/>
+        </Button>
+
+        <Button x:Name="btnCancel" HorizontalAlignment="Right" Margin="0,4,4,4" VerticalAlignment="Top" Click="Button_Click">
+            <Image Source="/Images/Exit.png" Width="24" Height="24"/>
+        </Button>
+    </Grid>
+</Window>

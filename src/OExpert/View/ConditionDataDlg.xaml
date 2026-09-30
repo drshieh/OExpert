@@ -1,0 +1,85 @@
+﻿<Window x:Class="OExpert.ConditionDataDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OExpert"
+        mc:Ignorable="d"
+        Title="Condition Information" Height="420" Width="700" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,2,2,2">Rule Condition is the IF parts of the rule.</Label>
+        
+        <Label Margin="16,34,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Content="Operator:"/>
+        <ComboBox x:Name="cbOperator" Margin="87,34,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Height="24" Width="180" Text="" ToolTip="operator, e.g., 'Is' of 'Is A true' or '==' part of the IF A == B"/>
+        <CheckBox x:Name="ckbOr" Margin="287,38,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 ToolTip="Is this a Or operation?" Content="Or?"/>
+
+        <Label Margin="16,64,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Content="Condition:"/>
+        <TextBox x:Name="tbCondition" Margin="87,64,4,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                 Height="24" Text="" ToolTip="The A part of IF A == B"/>
+
+        <Label Margin="16,94,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Content="Want Value:"/>
+        <TextBox x:Name="tbWantValue" Margin="87,94,0,0" Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Height="24" Text="" ToolTip="The B part of the IF A == B"/>
+        <Label Margin="16,124,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Content="Input Value:"/>
+        <TextBox x:Name="tbInputValue" Margin="87,124,0,0" Width="400" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Height="24" Text="" ToolTip="Input value"/>
+        <Label Margin="516,124,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="24" Content="Evaluated:"/>
+        <TextBox x:Name="tbEvaluatedValue" Margin="586,124,0,0" Width="80" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                 Height="24" Text="" ToolTip="Evaluated value"/>
+        <Grid Margin="0,162,2,2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="99*"/>
+                <ColumnDefinition Width="28"/>
+            </Grid.ColumnDefinitions>
+            <DataGrid Grid.Column="0" x:Name="dgOptions" Margin="0,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                AutoGenerateColumns="False" CanUserAddRows="False" ToolTip="List of options to answer this condition"
+                HorizontalGridLinesBrush="#FFDEB9B9" VerticalGridLinesBrush="#FFDEB9B9">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Option" Width="40*" Binding="{Binding value}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Grid Grid.Column="1">
+                <Button Name="btnAddOption" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTip="Add a New option" Click="Button_Click">
+                    <Image Source="/Images/Add.png" Width="24" Height="24"/>
+                </Button>
+                <Button Name="btnDeleteOption" Margin="0,24,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTip="Delete selected Option" Click="Button_Click">
+                    <Image Source="/Images/Cut.png" Width="24" Height="24"/>
+                </Button>
+                <Button Name="btnMoveToTop" Margin="0,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTip="Move to Top" Click="Button_Click">
+                    <Image Source="/Images/MoveToTop.png" Width="24" Height="24"/>
+                </Button>
+                <Button Name="btnMoveUp" Margin="0,74,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTip="Move Up" Click="Button_Click">
+                    <Image Source="/Images/MoveUp.png" Width="24" Height="24"/>
+                </Button>
+                <Button Name="btnMoveDown" Margin="0,98,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTip="Move Down" Click="Button_Click">
+                    <Image Source="/Images/MoveDown.png" Width="24" Height="24"/>
+                </Button>
+                <Button Name="btnMoveToBottom" Margin="0,122,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" ToolTip="Move to Bottom" Click="Button_Click">
+                    <Image Source="/Images/MoveToBottom.png" Width="24" Height="24"/>
+                </Button>
+
+            </Grid>
+        </Grid>
+        <Button Name="btnFirst" Margin="0,2,202,0" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="First Condition" Click="Button_Click">
+            <Image Source="/Images/First-48.png" Width="24" Height="24"/>
+        </Button>
+        <Button Name="btnPrevious" Margin="0,2,172,0" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="Previous Condition" Click="Button_Click">
+            <Image Source="/Images/Previous-48.png" Width="24" Height="24"/>
+        </Button>
+        <Button Name="btnNext" Margin="0,2,142,0" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="Next Condition" Click="Button_Click">
+            <Image Source="/Images/Next-48.png" Width="24" Height="24"/>
+        </Button>
+        <Button Name="btnLast" Margin="0,2,112,0" HorizontalAlignment="Right" VerticalAlignment="Top" ToolTip="Last Condition" Click="Button_Click">
+            <Image Source="/Images/Last-48.png" Width="24" Height="24"/>
+        </Button>
+        <Button x:Name="btnSave" HorizontalAlignment="Right" Margin="0,4,38,4" VerticalAlignment="Top" Click="Button_Click" ToolTip="Save Rule Conditions">
+            <Image Source="/Images/Save.png" Width="24" Height="24"/>
+        </Button>
+        <Button x:Name="btnCancel" HorizontalAlignment="Right" Margin="0,4,4,4" VerticalAlignment="Top" Click="Button_Click">
+            <Image Source="/Images/Exit.png" Width="24" Height="24"/>
+        </Button>
+        <Label x:Name="labelCount" Margin="0,34,190,4" HorizontalAlignment="Right" VerticalAlignment="Top">0 of 0</Label>
+    </Grid>
+</Window>
